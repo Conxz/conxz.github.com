@@ -14,6 +14,21 @@ git checkout hexo
 
 git push
 
+touch README
+
+git add README
+
+git commit -m 'init README'
+
+git push 
+
+git mv README README.md
+
+git commit -m 'rename README'
+
+git push
+
+
 Other helpful cmds:
 
 git status
