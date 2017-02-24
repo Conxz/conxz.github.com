@@ -22,6 +22,8 @@ Any suggestions and recommendations will be very appreciated!
 - GWAS: [GWAS cookbook](https://github.com/JoniColeman/gwas_scripts) | [MAGMA](http://ctg.cncr.nl/software/magma) | [mach2qtl](https://hpc.nih.gov/apps/mach2qtl.html) | [qctool](http://www.well.ox.ac.uk/~gav/qctool/#overview) | [SNPTEST](https://mathgen.stats.ox.ac.uk/genetics_software/snptest/snptest.html) | [ENIGMAprotocol](http://enigma.ini.usc.edu/protocols/genetics-protocols/) | [Michigan Imputation Server](https://imputationserver.sph.umich.edu/index.html)
 - Gene Ontology Enrichment Analysis: [DAVID](https://david.ncifcrf.gov/tools.jsp) | [GSEA](http://software.broadinstitute.org/gsea/index.jsp) | [CTD](http://ctdbase.org/tools/analyzer.go?q) | [WebGestalt](http://www.webgestalt.org/) | [GATHER](http://changlab.uth.tmc.edu/gather/)
 - RNA-seq: [edgeR](https://www.bioconductor.org/help/course-materials/2014/BioC2014/BioC2014_edgeR_voom.html#/) | [MATS](http://rnaseq-mats.sourceforge.net/index.html) | [MISO](http://genes.mit.edu/burgelab/miso/index.html)
+- World Cloud: [Wordle](http://www.wordle.net) | [worldcloud](https://www.jasondavies.com/wordcloud/)
+- Naming: [Acronym Creator](http://acronymcreator.net/)
 
 ## Brain Atlas
 - [Freesurfer cortical parcellation](https://surfer.nmr.mgh.harvard.edu/fswiki/CorticalParcellation)
