@@ -23,6 +23,7 @@ Any suggestions and recommendations will be very appreciated!
 - Gene Ontology Enrichment Analysis: [DAVID](https://david.ncifcrf.gov/tools.jsp) | [GSEA](http://software.broadinstitute.org/gsea/index.jsp) | [CTD](http://ctdbase.org/tools/analyzer.go?q) | [WebGestalt](http://www.webgestalt.org/) | [GATHER](http://changlab.uth.tmc.edu/gather/)
 - RNA-seq: [edgeR](https://www.bioconductor.org/help/course-materials/2014/BioC2014/BioC2014_edgeR_voom.html#/) | [MATS](http://rnaseq-mats.sourceforge.net/index.html) | [MISO](http://genes.mit.edu/burgelab/miso/index.html)
 - World Cloud: [Wordle](http://www.wordle.net) | [worldcloud](https://www.jasondavies.com/wordcloud/)
+- Comparing two correlations: [Site1](http://vassarstats.net/rdiff.html) | [Site2](http://www.quantpsy.org/corrtest/corrtest.htm) | [com2dcorr](https://garstats.wordpress.com/2017/03/01/comp2dcorr/)
 - Naming: [Acronym Creator](http://acronymcreator.net/)
 
 ## Brain Atlas
@@ -50,6 +51,8 @@ Any suggestions and recommendations will be very appreciated!
 - [Multiple Comparisons](http://blog.chrisgorgolewski.org/) by Chris Gorgolewski
 - [alivelearn](http://www.alivelearn.net/) by Xu Cui
 - [Xin Di](http://me.dixin.info/Home)
+- [basic statistics](https://garstats.wordpress.com/)
+- [MVPA Meanderings](http://mvpa.blogspot.nl/)
 
 ## Brain Projects
 - [Human Brain Project](https://www.humanbrainproject.eu/)
