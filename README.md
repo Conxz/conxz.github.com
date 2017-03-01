@@ -1,6 +1,18 @@
 Source files for my personal hexo [blog](http://www.conxz.net).
 
 ####History:
+
+#####1-Mar-2017 add backup for themes folders
+git ls-files --stage | grep 160000
+
+git rm --cached maupassant
+
+git add maupassant
+
+git commit -m 'add bakup for themes'
+
+git push
+
 #####22-Feb-2017 new branch 'hexo' for source files backup.
 git remote
 
