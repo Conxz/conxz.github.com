@@ -16,6 +16,6 @@ tags: bayes factor
 
 参考文献：
 
-- Kong X-Z*, Zhen Z*, Li X, Lu H-h, Wang R, Liu, L, He, Y, Zang, Y-f, Liu, J. (2014) Individual Differences in Impulsivity Predict Head Motion during Magnetic Resonance Imaging. PLoS ONE 9(8): e104989. doi:10.1371/journal.pone.0104989.
+- *Kong X-Z*, Zhen Z, Li X, Lu H-h, Wang R, Liu, L, He, Y, Zang, Y-f, Liu, J. (2014) Individual Differences in Impulsivity Predict Head Motion during Magnetic Resonance Imaging. PLoS ONE 9(8): e104989. doi:10.1371/journal.pone.0104989.
 
 <!--more-->

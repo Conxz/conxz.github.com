@@ -1,7 +1,7 @@
 ---
 title: 使用tksurfer可视化左右脑颠倒问题
 date: 2013-07-01 20:10:27
-tags:
+tags: freesurfer
 ---
 Tksurfer是freesurfer中可视化surface结果的很方便实用的工具，命令举例如下：
 

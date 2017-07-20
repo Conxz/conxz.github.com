@@ -1,7 +1,8 @@
 ---
 title: WGCNA Background
 date: 2017-02-08 20:38:27
-tags: 
+categories: Tools
+tags: gene
 ---
 WGCNA是Weighted Gene Co-expression Network Analysis的简称，其从网络连接的角度出发，考查基因之间的交互。该方法的提出背景是通过微阵列（microarray）实验可以获取的信息远多于仅得到一组差异表达的基因（differentially expressed genes）。基于微阵列microarray数据，我们可以通过计算基因表达模式（gene expression profiles）之间的相关来考查不同基因之间的交互。采用WGCNA方法，可以从数千基因的表达水平数据中识别可能具有临床价值的基因模块（gene modules），并最终采用模块内连接（intramodular connectivity）和基因-特质相关（gene significance）来发现某些疾病通路的关键基因，用于进一步验证。
 

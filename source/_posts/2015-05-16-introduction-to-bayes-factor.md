@@ -1,21 +1,29 @@
 ---
 layout: post
-title: "Bayes Factor (简述贝叶斯因子) [2]"
+title: "Bayes Factor (简述贝叶斯因子) [1]"
 date: 2015-05-23 22:53
 comments: true
 categories: Methods
 tags: bayes factor
 ---
-**Bayes factor的几个应用途径**
+**Bayes factor是什么？**
 
-1. 作为一种统计推断的方法，Bayes factor首先可以**用来代替p值**（一般根据p<0.05来决定拒绝虚无假设（null hypothesis, H0），接受备择假设（alternative hypothesis, H1））来确定备择假设是否可靠。这里的H0和H1即两个不同的模型，计算Bayes factor（![](/images/post_images/bayes_2.jpg)）。同样，如果计算得到的Bayes factor大于3，即数据x支持H1的概率是数据x支持H0的3倍以上，则被认为有足够的证据说明模型H1的正确性（类似根据p<0.05做出的结论）。
+最近读文献，发现研究者开始使用Bayes factor来说明一些问题（比如Russell实验室的新文Julian et al., 2015），看来大势所趋了，需要学习一下。
 
-2. 采用p值做统计推断时，一个常识是不可以简单地使用p>0.05作为H0成立的证据，即研究者不可以简单地做接受H0的结论（因为导致不显著的原因除了“H0成立”之外，还有比如样本不足，不够敏感等的影响；因此，如果非要做结论，一般需要结合power或effect size的信息来辅助进行）。而Bayes factor在这种场景中却派上了用场。如果统计结果显示上面计算得到的Bayes factor小于1/3，甚至更小，研究者就有足够的信心来接受H0模型。因此，**Bayes factor可以方便研究者确定“没有结果”的可靠性**，用于理论检验和构建。
+Bayes factor（贝叶斯因子）被用来描述一个理论优于另一个理论的相对确证性（ the relative evidence for one theory over another ）(Dienes, 2014)，采用数学符号表示即
 
-3. 个人认为Bayes factor还可以在另一个地方派上用场，即关于大样本研究中发现的效应值小（small effect size）的问题。随着数据采集条件的完善，行为神经科学中大样本的数据不断普及。同时研究者也发现，在大样本的数据统计中，0.2左右的效应量变得异常普遍，于是一些没有相关经验的审稿人（reviewer）便通常会提出类似“the amount of variance that impulsivity accounted for was a mere 2%”的问题，并质疑结果的可靠性。这个时候reviewer一般会要求做分半，进一步验证结果的可靠性。Bayes factor提供了另一个角度来**展示结论的可靠性**。以我自己的研究为例（Kong et al., PLOS ONE, 2014），我们发现被试在核磁扫描中头动（In-scanner head motion）的大小和被试的自我控制特质（Self-control impulsivity）存在显著关联，但是相关系数只有0.14（p=0.001），这时，可以计算该分析的Bayes factor发现BF = 9.1，因为大于3，可以认为有足够的证据确信头功和被试的自我控制特质之间存在的关联。
+![](/images/post_images/bayes_2.jpg)
+
+其中，x为观测到的数据，H0和H1分别为两种理论或模型，p(x|Hi)表示Hi成立时，观测到x的概率，即x数据底层模型满足Hi的概率。实际上p(x|Hi)的一个常用的名字叫似然概率（likelihood），这样，Bayes factor因为由基于两个模型的likelihood的比值定义，也被称为似然比（likelihood ratio）。
+
+因此，Bayes factor量化的就是数据x支持不同理论的确证性，换句话说，Bayes factor量化的是数据x支持模型A的概率是支持模型B的概率的倍数。为了使用方便，研究者给不同大小的Bayes factor打上了类似假设检验中“显著”“边缘显著”“不显著”的标签（Jeffreys H.，1939/1961）： 一般大于3或小于1/3被认为是实质性的证据（substantial evidence）；而1/3到3之间则被认为是较弱或有待验证的证据（weak or anecdotal evidence） 
 
 参考文献：
 
-- Kong X-Z*, Zhen Z*, Li X, Lu H-h, Wang R, Liu, L, He, Y, Zang, Y-f, Liu, J. (2014) Individual Differences in Impulsivity Predict Head Motion during Magnetic Resonance Imaging. PLoS ONE 9(8): e104989. doi:10.1371/journal.pone.0104989.
+- Julian et al. (2015). Place recognition and heading retrieval are mediated by dissociable cognitive systems in mice. Proc.Natl.Acad.Sci.U.S.A. www.pnas.org/cgi/doi/10.1073/pnas.1424194112
+
+- Dienes Z. (2014). Using Bayes to get the most out of non-significant results. Front.Psychol. 5:781. doi:10.3389/fpsyg.2014.00781
+
+- Jeffreys, H. (1939/1961). The Theory of Probability, 1st/3rd Edn. Oxford, England: Oxford University Press.
 
 <!--more-->
