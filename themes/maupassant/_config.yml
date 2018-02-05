@@ -58,6 +58,9 @@ menu:
   - page: about
     directory: about/
     icon: fa-user
+  - page: News & Events
+    directory: news/
+    icon: fa-twitter
   - page: Collection
     directory: collection/
     icon: fa-cloud
