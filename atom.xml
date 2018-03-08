@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://conxz.net/"/>
-  <updated>2018-01-24T06:59:22.000Z</updated>
+  <updated>2018-03-08T22:58:05.855Z</updated>
   <id>http://conxz.net/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Retreat是什么会议？</title>
+    <link href="http://conxz.net/2018/03/08/whatisretreat/"/>
+    <id>http://conxz.net/2018/03/08/whatisretreat/</id>
+    <published>2018-03-08T22:32:48.000Z</published>
+    <updated>2018-03-08T22:58:05.855Z</updated>
+    
+    <content type="html"><![CDATA[<p>计划5月中旬去New York参加Society of Biological Psychiatry（SOBP）的Annual Meeting。以往主要关注像OHBM这种脑影像相关的国际会议，这是第一次参加这个生物精神病学的会议。今年SOBP Annual Meeting的主题是“Biomarkers, Biomodels, and Psychiatric Disorders”。在此期间，ENIGMA在New York计划组织了一次小型会议，命名为ENIGMA Annual Retreat，因此，最近也在收集参会人的信息。这里涉及到一个生词<strong>Retreat</strong>（我词汇量也有限），于是心生疑问，这个Retreat和Meeting/Conference有什么区别？</p><p>于是乎搜了一些信息，这里有个<a href="http://blog.sina.com.cn/s/blog_4bc09c100100mmna.html" target="_blank" rel="noopener">博客</a>很系统收集了几种常用的会议相关的词的用法，包括Meeting、Conference、Symposium、Congress、Convention、Forum、Lecture、Seminar、Workshop、Colloquium、Panel Discussion和Assembly等。这里涉及到上面提到的SOBP和OHBM用的Annual Meeting，即“年会”。另一个词是Colloquium（座谈会或专题报告），我认识这个词源自现在单位的不定期活动<a href="http://www.mpi.nl/events/copy_of_mpi-colloquium-series" target="_blank" rel="noopener">MPI Colloquium</a>，是Seminar（研讨会或者学术讨论）的一种正式的说法。Panel Discussion是围绕具体问题的现场“小组讨论”或“座谈”。</p><p>根据搜到的一些资料看(比如<a href="https://ministryservingministry.com/2013/12/12/retreat-or-conference-that-is-the-question/" target="_blank" rel="noopener">这篇</a>)，Retreat和Conference是不同的，不过有时候还是会出现混用。可能主要的区别在于，Retreat源于宗教场合，意为闭关，静修，用在会议上包含了这个词本身包含的休息、放松的意思，一般指非正式会议；而Conference则仅是围绕特定主体的会议，期间并没有过多可以休息的时间。同时Retreat似乎是小范围的类似会员聚会。如此看，Retreat更适用那种特定组织，以学术交流为主题，同时兼顾放松、休闲的集会活动。如此想来，倒也确实适合借助其他Annual Meeting之便，将参会的部分成员召集在一起，兼顾学术和放松的Annual Retreat活动。</p><p>中文有“务虚会议”这个词，感觉不太直观；也有新闻报道中直接用Retreat会议或非正式会议；结合这种会议的范围，可能翻译成“<strong>闭门会议</strong>”可能更合适。</p><p><img src="/images/post_images/retreat.jpg" alt="Retreat"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;计划5月中旬去New York参加Society of Biological Psychiatry（SOBP）的Annual Meeting。以往主要关注像OHBM这种脑影像相关的国际会议，这是第一次参加这个生物精神病学的会议。今年SOBP Annual Meeting的主
+      
+    
+    </summary>
+    
+      <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
+    
+    
+      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
+    
+      <category term="conference" scheme="http://conxz.net/tags/conference/"/>
+    
+  </entry>
+  
+  <entry>
     <title>unzip解压压缩包中指定的文件</title>
     <link href="http://conxz.net/2017/12/13/unzip/"/>
     <id>http://conxz.net/2017/12/13/unzip/</id>
     <published>2017-12-13T06:14:26.000Z</published>
-    <updated>2018-01-24T06:59:22.000Z</updated>
+    <updated>2018-03-08T22:43:18.291Z</updated>
     
     <content type="html"><![CDATA[<p>近年来，开放科学Open Science在学术圈得到越来越多的关注。在开放数据方面，研究者开始接受将采集的数据在线共享，同时越来越多的研究者开始基于在线共享的数据开展研究。</p><p>研究者通常以压缩包的形式将数据上传到网络。而在其他研究使用公开共享的数据开展研究时，由于通常情况下，该数据并非为其设计和采集，数据使用者需要将所有数据下载，并解压所有数据文件。有些时候（比如，用个人的笔记本下10几G的HCP数据），下载的压缩包本身就很大，如果全部解压，将会占用更多硬盘空间（然而，我硬盘空间不够解压所有数据了。。）。碰到这个问题，解决方案可以是将数据copy到另一台电脑或服务器，全部解压后，挑选需要的数据；另一个方案可以考虑选择性的解压一些需要的文件。本文就是笔者在使用HCP数据时，由于碰到Mac空间有限的问题，找到的解决方案。</p><p>以HCP1200的处理好的数据为例，HCP1200_Parcellation_Timeseries_Netmats.zip大概有13G，如果全部解压出来需要差不多相当的空间。而笔者只感兴趣其中的几个文件，于是想到应该有一种解压感兴趣文件的解决方案，比如称为“基于感兴趣文件的解压” FOI（Files of Interest）-based Unzip 哈哈。</p><ul><li><p>通过下面一条命令可以查看压缩文件中的目录结构，但不做实际解压。这样可以从结果中挑选兴趣的文件。<br><code>unzip -v HCP1200_Parcellation_Timeseries_Netmats.zip</code></p></li><li><p>通过下面一条命令解压指定的文件。比如，这里我们感兴趣与scripts.tar.gz这个文件。<br><code>unzip HCP1200_Parcellation_Timeseries_Netmats.zip “HCP_PTN1200/scripts.tar.gz”</code></p></li><li><p>如果感兴趣于多个文件，可以重复2中的命令。此外，如果只是对其中的某个/些文件不敢兴趣，可以采用-x参数，以在解压时排除指定文件(们)。<br><code>unzip -x file1 file2 file2 HCP1200_Parcellation_Timeseries_Netmats.zip</code></p></li></ul>]]></content>
     
@@ -38,7 +65,9 @@
       <category term="Tools" scheme="http://conxz.net/categories/Tools/"/>
     
     
-      <category term="data sharing, open science" scheme="http://conxz.net/tags/data-sharing-open-science/"/>
+      <category term="data sharing" scheme="http://conxz.net/tags/data-sharing/"/>
+    
+      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
   </entry>
   
@@ -47,7 +76,7 @@
     <link href="http://conxz.net/2017/11/08/scitop/"/>
     <id>http://conxz.net/2017/11/08/scitop/</id>
     <published>2017-11-08T06:14:11.000Z</published>
-    <updated>2018-01-24T06:56:02.000Z</updated>
+    <updated>2018-03-08T22:41:15.364Z</updated>
     
     <content type="html"><![CDATA[<p>在学术成果评价中，经常会提及SCI Top期刊。SCI Top是中国科学院文献情报中心发布的中科院期刊分区中的一些排名靠前的期刊，紧随其后的期刊一般标签为SCI2，SCI3和SCI4区期刊。所谓SCI Top实际上是包括了SCI1区的期刊和部分SCI2区的期刊，其中SCI1区大致定义为领域排名前5%的期刊。由于一些领域期刊数量有限，导致SCI1区期刊屈指可数，导致SCI1区在实际的学术成果评价中可用性不大；可能是出于这一原因，中科院期刊分区单独定义了SCI Top期刊，以涵盖更多领域认可的期刊。</p><p><img src="/images/post_images/scitop.jpg" alt="SCI Top 期刊" title="SCI Top 期刊"></p><p>近期2016年版（2017最新版）中科院期刊分区正式发布，笔者注意到SCI Top期刊列表变化有些大，新加了一些期刊。下面是查询到的常见的脑科学（神经科学、认知神经科学和神经影像，以及一些高影响的综合期刊）相关的SCI Top期刊列表（欢迎在下方评论中补充）。</p><h3 id="期刊名称-影响因子-Top期刊"><a href="#期刊名称-影响因子-Top期刊" class="headerlink" title="期刊名称 影响因子 Top期刊"></a>期刊名称 影响因子 Top期刊</h3><p>Nature 40.137 是<br>Science 37.205 是</p><p>Nature Neuroscience 17.839 是<br>Neuron 14.024 是</p><p>Nature Communications 12.124 是<br>PNAS 9.661 是<br>Current Biology 8.851 是<br>Brain 10.292 是<br>PLOS Biology 9.797 是</p><p>Cerebral Cortex 6.559 是<br>eLife 7.725 是<br>Journal of Neuroscience 5.988 是</p><p>NeuroImage 5.835 是<br>Human Brain Mapping 4.530 是<br>Brain Structure &amp; Function 4.698 是<br>Cortex 4.279 是</p><p>Nature Review Neuroscience 28.880 是<br>Trends in Cognitive Science 15.402 是<br>Behavioral and Brain Science 14.200 是<br>Trends in Neurosciences 11.124 是<br>Neuroscience &amp; Biobehavioral Reviews 8.299 是<br>Neuroscientists 7.391 是</p><p>JAMA Psychiatry 15.307 是<br>Molecular Psychiatry 13.204 是<br>Biological Psychiatry 11.412 是<br>Lancet Psychiatry 11.588 是<br>Molecular Neurodegeneration 6.780 是<br>Neuropsychopharmacology 6.403 是</p><p>National Science Review 8.843 是<br>Annual Review of Neuroscience 15.630 是<br>Progress in Neurobiology 13.217 是</p><p>Current Opinion in Neurobiology 6.133 是<br>PLoS Genetics 6.100 是<br>Neuropharmacology 5.012 是</p><p>Annual Review of Psychology 19.950 是<br>Psychological Bulletin 16.793 是<br>Annual Review of Clinical Psychology 12.136 是<br>Psychological Review 7.638 是</p><p>Diabetes Care 11.857 是<br>Stroke 6.032 是<br>Pain 5.445 是<br>Sleep Medicine Reviews 8.958 是</p><p>此外，Psychological Science是很好的期刊，影响因子5.667，由于只属SSCI期刊，并不在中科院分区范围。</p><p>数据来源：<a href="http://www.letpub.com.cn/index.php?page=journalapp" target="_blank" rel="noopener">http://www.letpub.com.cn/index.php?page=journalapp</a></p>]]></content>
     
@@ -63,7 +92,9 @@
       <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
     
     
-      <category term="open science, publication" scheme="http://conxz.net/tags/open-science-publication/"/>
+      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
+    
+      <category term="publication" scheme="http://conxz.net/tags/publication/"/>
     
   </entry>
   
@@ -97,7 +128,7 @@
     <link href="http://conxz.net/2017/10/01/redefine-significance-3/"/>
     <id>http://conxz.net/2017/10/01/redefine-significance-3/</id>
     <published>2017-10-01T05:13:37.000Z</published>
-    <updated>2018-01-24T06:46:34.000Z</updated>
+    <updated>2018-03-08T22:40:45.278Z</updated>
     
     <content type="html"><![CDATA[<p>在关于重新定义显著性阈值的文章（Benjamin_2017_Redefine statistical significance）在线发表后，关于p值争论就没有停息，其中有支持，有反对，更有人提出了包括舍弃显著性阈值，甚至p值的新方案。这些争论很多来自方法学领域的领军人物，各方言辞凿凿，其中的争议可见一斑，短期内也不可能有个定论。下面是一些笔者自己关于p值与可重复性问题的random想法。</p><p><img src="/images/post_images/sig.jpg" alt="显著性" title="显著性"></p><p>笔者认为，将显著性阈值本身是否合理，与研究结果的可重复性问题联系起来，本身就值得思考。这一联系，本身反映了一些研究者自身对p值的误解，以及这种误解的根深蒂固。实际上，p值反映的是，在零假设为真的情况下，出现当前结果（或更极端结果）的可能性；其与研究结果的可重复性（已发表的结果可重复的概率）并没有直接联系。更具体地，前者是Prob(p&lt;0.05 | H0为真)，而后者是Prob(H0为真| p&lt;0.05)，二者并非一个东西。如果期望采用0.05的显著性阈值，达到发表结果95%的可重复性的想法，本身就是有错误的。</p><p>更重要的是，理论上，显著性阈值设在0.05时，可以很好的将假阳性率控制在5%；为了更直观地呈现这一点，这里有个<a href="http://conxz.net/2017/09/21/redefine-significance/">模拟数据的结果</a>。也就是说，在不存在数据操纵等不科学行为的前提下，显著性阈值可以很好的控制错误拒绝零假设的概率。</p><p>那么，现在引起众多争议的可重复性问题是如何产生的呢？</p><p>显然，如上面所示，显著性阈值本身可以很好的控制假阳性，其并非问题的根本原因。</p><p>该问题更直接的原因是<strong>p hacking</strong>和<strong>power failure</strong>。</p><p>其中，p hacking与现存的期刊倾向于发表显著结果的现状（publication bias）存在密切关联，是指一些研究者在数据采集和分析过程中，采用各种各样的手段，以试图将p值控制在显著性阈值以下；或从众多结果中，挑选显著的结果用于报告等；这一操作本身将引起估计的效应量夸大，甚至出现假阳性结果，使得错误拒绝零假设的可能性明显增加。</p><p>而power failure是指，在实际研究中，统计效力（statistical power）不够，即实际采用的样本量并不能检测感兴趣的效应，从而导致大量效应被认为是不存在的；这一问题直接导致，研究者与很多实际存在的效应只能擦肩而过，从而导致已发表的结果中，这些实际存在的效应的确实。</p><p>如此，一多（p hacking导致的假阳性结果增加）一少（power failure导致的实际存在的效应得到检测到的数量减少），从而引发已发表的研究结果的可重复性问题。</p><p>至于降低显著性阈值的策略是否能解决已发表文章的可重复性问题，这本身还是一个问题。比如，显著性阈值减低，确实可以使得假阳性结果会减少，但是，能够成功检测到的效应的数量也会减少，最终得以发表的结果的可重复性将如何变化，要取决于二者之间的权衡。</p><p>说到底，可重复性问题的根源在研究者的不合理行为：说一下极端情况，如果完全没有p hacking，同时每一个研究都有足够的统计power，那么，即使显著性阈值取0.05，也可以很好的控制研究发现的可重复性。</p>]]></content>
     
@@ -113,7 +144,9 @@
       <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
     
     
-      <category term="open science, p value" scheme="http://conxz.net/tags/open-science-p-value/"/>
+      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
+    
+      <category term="p value" scheme="http://conxz.net/tags/p-value/"/>
     
   </entry>
   
@@ -122,7 +155,7 @@
     <link href="http://conxz.net/2017/09/26/redefine-significance-2/"/>
     <id>http://conxz.net/2017/09/26/redefine-significance-2/</id>
     <published>2017-09-26T05:13:10.000Z</published>
-    <updated>2018-01-24T06:42:49.000Z</updated>
+    <updated>2018-03-08T22:40:59.411Z</updated>
     
     <content type="html"><![CDATA[<p>Benjamin等(2017)提出重新定义显著性阈值的文章发表后，在网上引起了激烈的讨论。其中，Amrhein和Greenlan在同一期刊Nature Human Behavior上对Benjamin的文章做了回应，表示我们要抛弃显著性阈值。</p><p><img src="/images/post_images/p005.jpg" alt="p&lt;0.05 versus p&lt;0.005" title="p&lt;0.05 versus p&lt;0.005"></p><p>回应首先用三分法（Trichotomy）总结了Benjamin等人的建议，即p&lt;0.005为显著（significant），p<0.05为提示性（suggestive）证据，p>0.05为不显著（nonsignificant）。这里”三分法”的提法似乎在暗讽其与传统的二分法（Dichotomy）没有多大区别。<br>接下来，Amrhein和Greenlan引用原作者关于“p-hacking，selective reporting和publication bias等问题，相对于随机产生的false positives要严重的多”的描述，表面上赞同，实际上确以此引出了该回应的重点，即采用更高的阈值实际上会加剧上述提到的几个更为严重的问题，比如更多的p hacking和selective reporting问题。</0.05为提示性（suggestive）证据，p></p><p>Amrhein和Greenlan还指出了研究者中经常存在的一种对p值的误解，即误将显著与否等价于假设的真假，而忽略了实际数据中存在的不确定性。作者认为，在这种误解将持续的情况下，该“三分法”的提出，极有可能增加一些研究者在数据不显著时，对零假设的过度置信，造成盲目接受零假设而否认备择假设。如此，将严重减缓科学发展进程。</p><p>基于此，Amrhein和Greenlan提出，既然所有问题的来源都是显著性阈值，我们干脆抛弃这个阈值好了。作者认为，科学结论需要汇总多个研究汇总的信息以及一系列的证据，而不是依据某一个研究。为了确保文献汇总的有效性，研究结果不论其是否显著都应该予以发表。在这一模式下，p值只被看做为一个连续性值，而不是基于二分法或三分法的显著与否。</p><p>整个回应可以简单概括为依一句话：减低显著性阈值只会加剧现有的各种问题，我们不如完全抛弃显著与否这个概念，老老实实汇报原始的统计结果。</p><p>虽然笔者不是很赞同减低显著性阈值来解决研究结果可重复性的问题（显著性阈限是用来控制错误拒绝零假设造成的false positives，理论上如果没有人为干扰，这个阈限可以很好的发挥作用，比如<a href="http://conxz.net/2017/09/21/redefine-significance/">采用p=0.05阈值时，模拟数据显示，false positive rate可以很好的控制在5%</a>。实际上，之所以存在可重复性问题，更多的是人为的不合理行为，比如p-hacking和publication bias），但是如果完全抛弃显著性阈值，报告原始的p值的话，笔者着实好奇，如此做，学术界将会是怎样一副光景。</p><p>Benjamin, D. J. et al. Nature Hum. Behav. 1, 0189 (2017).<br>Amrhein，V. and Greenland S. Nature Hum. Bahav. (2017)</p>]]></content>
     
@@ -139,7 +172,9 @@
       <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
     
     
-      <category term="open science, p value" scheme="http://conxz.net/tags/open-science-p-value/"/>
+      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
+    
+      <category term="p value" scheme="http://conxz.net/tags/p-value/"/>
     
   </entry>
   
@@ -148,7 +183,7 @@
     <link href="http://conxz.net/2017/09/21/redefine-significance/"/>
     <id>http://conxz.net/2017/09/21/redefine-significance/</id>
     <published>2017-09-21T05:07:35.000Z</published>
-    <updated>2018-01-24T06:38:21.000Z</updated>
+    <updated>2018-03-08T22:42:44.657Z</updated>
     
     <content type="html"><![CDATA[<p>Lack of reproducibility of scientific studies has caused growing concern among researchers. Causes of this issue may include multiple testing, p-hacking, publication bias and under-powered studies. Another potential cause has been raised recently. That is, “statistical standards of evidence for claiming new discoveries in many fields of science are simply too low” (Benjamin et al., 2017). The paper on redefining statistical significance has been published in Nature Human Behaviour. The authors included leaders in the push for greater reproducibility. They claimed that the traditional significance (i.e., 0.05) threshold resulted in unexpected high ‘false positive’, and that reducing the p value threshold would “immediately improve reproducibility”.</p><p>I agree that using a smaller p threshold (e.g., 0.005) reduces false positives. But I am just wondering what the <strong>false positive rate</strong> really looks like (using traditional p threshold 0.05) if null hypothesis is actually true (Notes: Actually, the false positive rate should theoretically be very close to the p threshold one chooses. Using of the term ‘false positive rate’ in Benjamin et al., 2017 makes me doubt myself about this point. So I decided to conduct a simulation below make sure that my understanding of false positive rate is correct).</p><p>It seems that this question can be more directly answered with data simulation. Specifically, we can generate large-sample simulated data (N = 1,000,000) with zero correlation. To simulate one traditional experiment, we can randomly select a subset (n = 50) from the large population, and then correlation can be calculated. By repeating the random selection, we can get many correlation values. Then, we can calculate the false positive rate using some p threshold (e.g., 0.05).</p><p>If the false positive rate is just around 5%, the lack of reproducibility issue would have nothing with the significance threshold itself. And moreover, if the false positive rate is very close to 5%, should we still need to redefine statistical significance?</p><p>Here are more details for the simulation.</p><ul><li>Simulate two variables (A, B) while controlling the correlation between them (r = 0.0; N = 100,000 or larger).</li><li>Select n (n &lt;&lt; N) samples from the simulated population, so we get x and y for A and B, respectively.</li><li>Calculate the correlation between x and y. If the p value of this correlation is less than 0.05, we take it as a false positive.</li><li>Repeat step 2 and 3 for multiple time. Then a false positive rate was calculated for this sample size n.</li><li>Select a different n, and repeat step 2, 3, and 4.</li></ul><p>N = 1,000,000</p><p><img src="/images/post_images/fpr.png" alt="False positive rate with p threshold of 0.05" title="False positive rate with p threshold of 0.05"></p><p>As shown in the figure above (and as expected mathematically), the false positive rates are very close to 5% for all sample sizes used. That is, for data with no effect, the false positive rate is just very close to the p threshold used (i.e., 0.05).</p><p>The results showed that the significance threshold 0.05 does not result in unexpected false positives, suggesting that the significance threshold itself is not responsible for the lask of reproducibility of research results. The reproducibility issue is not directly caused by the traditional significance threshold, but more related to researchers’ improper behaviours, including p-hacking, and publication bias. Moreover, from the formula for the probability of false positives in published resuts below, you can see another factors contributing to the final results: prior odds and power (1-beta). As we don’t know about the real prior odds, low power would be the major problem for lask of reproducibility of published results (even if there is no p-hacking). In sum, it is these improper behaviours (e.g., p-hacking and power failure) that cause reproducibility issues of published results, rather than the standard significance threshold itself.</p><p>Thus I would say that what researchers need to do for solving the reproducibility issue is to conduct studies scientifically. <strong>No p-hacking, Enough sample size</strong> (for high statistical power). For example, one should justify your choice for a significance level and a good sample size before collecting the data. Otherwise, if one insists on improper behaviours, and doesn’t do science in a scientific way, any statistical significance redefinition or fancy method will be in vain (e.g., researchers may use p-hacking with any inferential threshold).</p><p>In addition, causes of lack of reproducibility are complex and sometimes uneasy to control perfectly. For example, for some situations, one can not determine the sample size before collecting the data. In this case, he/she still has an alternative solution: simply replicate your results with an independent sample.</p><p>With either solution, let’s say: <strong>Do science in a open, transparent and reproducible way!</strong></p><p>References:<br>Benjamin, Daniel J., et al. “Redefine statistical significance.” Nature Human Behaviour (2017).<br>Lakens, D. et al. <a href="https://psyarxiv.com/9s3y6" target="_blank" rel="noopener">https://psyarxiv.com/9s3y6</a> (2017).</p><p>Notes:<br><img src="/images/post_images/fpr2.png" alt="False positive report probability definition" title="False positive report probability definition"></p><p>In Benjamin et al., 2017, ‘False positive rate’ was defined like this. This seems somehow misleading. The formula actually means the probability that a significant finding is a false positive. A better name would be False Positive Report Probability, as used in Lakens et al., 2017. Note that this formula is not the typical definition of false positive rate.</p><p>A similar formula was used in Power failure: why small sample size undermines the reliability of neuroscience.</p>]]></content>
     
@@ -164,7 +199,9 @@
       <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
     
     
-      <category term="open science, p value" scheme="http://conxz.net/tags/open-science-p-value/"/>
+      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
+    
+      <category term="p value" scheme="http://conxz.net/tags/p-value/"/>
     
   </entry>
   
@@ -521,33 +558,6 @@
     
     
       <category term="brain network" scheme="http://conxz.net/tags/brain-network/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>保持冷静，不要头动</title>
-    <link href="http://conxz.net/2014/09/16/2014-09-16-do-not-move-your-head/"/>
-    <id>http://conxz.net/2014/09/16/2014-09-16-do-not-move-your-head/</id>
-    <published>2014-09-16T20:32:00.000Z</published>
-    <updated>2018-01-23T21:12:30.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>在网上看到一张图，贴在核磁扫描间是不是很应景，哈哈！</p><p><img src="http://ww2.sinaimg.cn/bmiddle/49f8908ejw1ekeokp0heej20go0jg0u4.jpg" alt="保持冷静，不要头动"></p><p>致谢：<a href="https://twitter.com/m_wall" target="_blank" rel="noopener">Matt Wall@Twitter</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;在网上看到一张图，贴在核磁扫描间是不是很应景，哈哈！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/bmiddle/49f8908ejw1ekeokp0heej20go0jg0u4.jpg&quot; alt=&quot;保持冷静，不要头动&quot;&gt;&lt;/p&gt;
-&lt;p&gt;致
-      
-    
-    </summary>
-    
-      <category term="Xs" scheme="http://conxz.net/categories/Xs/"/>
-    
-    
-      <category term="head motion" scheme="http://conxz.net/tags/head-motion/"/>
     
   </entry>
   
