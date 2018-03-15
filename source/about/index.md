@@ -3,7 +3,7 @@ layout: page
 comments: False
 ---
 
->*I hear and I forget; I see and I remember; I do and I understand.* 
+>*不闻不若闻之，闻之不若见之，见之不若知之，知之不若行之。(I hear and I forget; I see and I remember; I do and I understand.)* 
 >Xunzi, 312-230 BC
 
 My name is Xiangzhen Kong, currently a research staff at the Max Planck Institute, Nijmegen.  I am a brain mapper, and particularly interested in neuroimaging methodologies and brain imaging genetics. My current research is focused on three related areas: 

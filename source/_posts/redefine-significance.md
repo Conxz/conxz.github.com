@@ -1,7 +1,7 @@
 ---
 title: Redefine statistical significance? Let's just do science in a scientific way.
 date: 2017-09-21 07:07:35
-tags: open science, p value
+tags: [open science, p value]
 category: OpenScience
 ---
 Lack of reproducibility of scientific studies has caused growing concern among researchers. Causes of this issue may include multiple testing, p-hacking, publication bias and under-powered studies. Another potential cause has been raised recently. That is, “statistical standards of evidence for claiming new discoveries in many fields of science are simply too low” (Benjamin et al., 2017). The paper on redefining statistical significance has been published in Nature Human Behaviour. The authors included leaders in the push for greater reproducibility. They claimed that the traditional significance (i.e., 0.05) threshold resulted in unexpected high ‘false positive’, and that reducing the p value threshold would “immediately improve reproducibility”.

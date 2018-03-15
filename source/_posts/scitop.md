@@ -1,7 +1,7 @@
 ---
 title: 脑科学相关SCI Top期刊_2017
 date: 2017-11-8 07:14:11
-tags: open science, publication
+tags: [open science, publication]
 category: OpenScience
 ---
 在学术成果评价中，经常会提及SCI Top期刊。SCI Top是中国科学院文献情报中心发布的中科院期刊分区中的一些排名靠前的期刊，紧随其后的期刊一般标签为SCI2，SCI3和SCI4区期刊。所谓SCI Top实际上是包括了SCI1区的期刊和部分SCI2区的期刊，其中SCI1区大致定义为领域排名前5%的期刊。由于一些领域期刊数量有限，导致SCI1区期刊屈指可数，导致SCI1区在实际的学术成果评价中可用性不大；可能是出于这一原因，中科院期刊分区单独定义了SCI Top期刊，以涵盖更多领域认可的期刊。

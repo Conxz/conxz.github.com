@@ -1,7 +1,7 @@
 ---
 title: Redefine significance? Remove it？
 date: 2017-09-26 07:13:10
-tags: open science, p value
+tags: [open science, p value]
 category: OpenScience
 ---
 Benjamin等(2017)提出重新定义显著性阈值的文章发表后，在网上引起了激烈的讨论。其中，Amrhein和Greenlan在同一期刊Nature Human Behavior上对Benjamin的文章做了回应，表示我们要抛弃显著性阈值。

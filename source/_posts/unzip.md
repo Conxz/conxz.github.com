@@ -1,7 +1,7 @@
 ---
 title: unzip解压压缩包中指定的文件
 date: 2017-12-13 07:14:26
-tags: data sharing, open science
+tags: [data sharing, open science]
 category: Tools
 ---
 近年来，开放科学Open Science在学术圈得到越来越多的关注。在开放数据方面，研究者开始接受将采集的数据在线共享，同时越来越多的研究者开始基于在线共享的数据开展研究。

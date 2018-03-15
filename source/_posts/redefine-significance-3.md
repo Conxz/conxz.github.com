@@ -1,7 +1,7 @@
 ---
 title: p值:这个锅，我不背!
 date: 2017-10-1 07:13:37
-tags: open science, p value
+tags: [open science, p value]
 category: OpenScience
 ---
 在关于重新定义显著性阈值的文章（Benjamin_2017_Redefine statistical significance）在线发表后，关于p值争论就没有停息，其中有支持，有反对，更有人提出了包括舍弃显著性阈值，甚至p值的新方案。这些争论很多来自方法学领域的领军人物，各方言辞凿凿，其中的争议可见一斑，短期内也不可能有个定论。下面是一些笔者自己关于p值与可重复性问题的random想法。
