@@ -14,9 +14,9 @@ ga('create','UA-26255736-1','auto');ga('send','pageview');</script></head><body>
 <p><strong>推荐参数：TIFF图片分辨率600ppi（统计图1000ppi），或直接保存矢量图（比如pdf格式） + 图片宽度8.7/11.4/17.8cm + 最小字号6-8</strong></p>
 <hr>
 <p><strong>R/RStudio:</strong><br>保存TIFF格式图片</p>
-<p><em>tiff(file = “C:/test1.tiff”, res = 600, width = 11.4, height = 15, units=’cm’, compression = “lzw”)<br>plot(1:22, pch = 1:22, cex = 1:3, col = 1:5)<br>dev.off()</em></p>
+<p><code>tiff(file = &quot;C:/test1.tiff&quot;, res = 600, width = 11.4, height = 15, units=&#39;cm&#39;, compression = &quot;lzw&quot;)</code><br><code>plot(1:22, pch = 1:22, cex = 1:3, col = 1:5)</code><br><code>dev.off()</code></p>
 <p>保存PDF格式</p>
-<p><em>pdf(fig_file, width = 11.4, height = 15, pointsize = 8)<br>plot(1:22, pch = 1:22, cex = 1:3, col = 1:5)<br>dev.off()</em></p>
+<p><code>pdf(fig_file, width = 11.4, height = 15, pointsize = 8)</code><br><code>plot(1:22, pch = 1:22, cex = 1:3, col = 1:5)</code><br><code>dev.off()</code></p>
 <hr>
 <p><strong>Illustrator：
 </strong><br>设置图片尺寸：File &gt; New…，根据需要设置宽度Width，注意单位Units<br>设置导出非矢量图时的分辨率：Effect &gt; Document Raster Effect Settings，Color Mode选RGB，Resolution根据需要设定。<br>导出TIFF：File &gt; Export…， 选择TIFF格式保存。<br>保存PDF或EPS：File &gt; Save As…，选择相应格式并保存。<br>其他：<br>如果发现图片边框空白太多，可以采用Illustrator截取多余的部分：File &gt; Document Setup …，点击Edit Artboards，然后可以通过拖拽虚线方框设定感兴趣的区域。</p>
