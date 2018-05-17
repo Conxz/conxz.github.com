@@ -20,16 +20,16 @@ category: OpenScience
 **R/RStudio:**
 保存TIFF格式图片
 
-*tiff(file = "C:/test1.tiff", res = 600, width = 11.4, height = 15, units='cm', compression = "lzw")
-plot(1:22, pch = 1:22, cex = 1:3, col = 1:5)
-dev.off()*
+`tiff(file = "C:/test1.tiff", res = 600, width = 11.4, height = 15, units='cm', compression = "lzw")`
+`plot(1:22, pch = 1:22, cex = 1:3, col = 1:5)`
+`dev.off()`
 
 
 保存PDF格式
 
-*pdf(fig_file, width = 11.4, height = 15, pointsize = 8)
-plot(1:22, pch = 1:22, cex = 1:3, col = 1:5)
-dev.off()*
+`pdf(fig_file, width = 11.4, height = 15, pointsize = 8)`
+`plot(1:22, pch = 1:22, cex = 1:3, col = 1:5)`
+`dev.off()`
 
 ---
 **Illustrator：

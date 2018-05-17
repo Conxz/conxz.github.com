@@ -12,4 +12,4 @@ tags: white matter
 
 上图：<!--more-->
 
-![white matter tracts](/images/post_images/white matter tracts.png "White Matter tracts")
+![white matter tracts](/images/post_images/whitemattertracts.png "White Matter tracts")
