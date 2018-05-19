@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://conxz.net/"/>
-  <updated>2018-03-15T21:54:38.483Z</updated>
+  <updated>2018-05-19T10:09:27.080Z</updated>
   <id>http://conxz.net/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>多中心合作与脑科学研究 由最近一篇文章想到的</title>
+    <link href="http://conxz.net/2018/05/19/collaborative-team-research/"/>
+    <id>http://conxz.net/2018/05/19/collaborative-team-research/</id>
+    <published>2018-05-19T09:46:00.000Z</published>
+    <updated>2018-05-19T10:09:27.080Z</updated>
+    
+    <content type="html"><![CDATA[<p>按照惯例，先放上论文的信息，方便查阅，也请多多指教。<br>Kong, X., Mathias, S. R., Guadalupe, T., ENIGMA Laterality Working Group, Glahn, D. C., Franke, B., Crivello, F., Tzourio-Mazoyer, N., Fisher, S. E., Thompson, P. M., &amp; Francks, C. (2018). Mapping Cortical Brain Asymmetry in 17,141 Healthy Individuals Worldwide via the ENIGMA Consortium. Proceedings of the National Academy of Sciences of the United States of America. Advance online publication. <a href="https://doi.org/10.1073/pnas.1718418115" target="_blank" rel="noopener">doi:10.1073/pnas.1718418115</a></p><p><img src="/images/post_images/pnassites.jpg" alt="脑皮层偏侧化研究中的多中心"><br><a id="more"></a><br>论文主要通过多中心合作的研究模式，汇集了来自全球99个数据集的17000+个健康脑结构影像数据，以刻画人脑结构的不对称性；文中同时考察了这种不对称性的个体差异，以及这种个体差异与年龄、性别、利手，以及遗传因素之间的关联。文中具体描述了一些有意思的发现，可能对今后关于脑功能偏侧化和脑结构不对称性之间关联，以及脑不对性的遗传基础等研究可以提供一些有用的信息；同时，这一研究提供了一个健康样本在群体水平的脑结构偏侧化模式，对于今后脑疾病相关研究可以提供参考信息。</p><p>很高兴这篇论文最近被PNAS接收，从去年十月底投稿，到半月前接收，差不多正好是6个月的时间。审稿过程相对顺利，中间对文章可能存在的问题做了一些补充和回复，非常感激编辑和5位审稿人对文章的欣赏和认可。这里不好透露审稿意见原文，这里仅提及一点，即，<strong>多中心合作的研究模式</strong>。</p><p><img src="/images/post_images/multisites.jpg" alt="多中心合作"></p><p>说到<strong>多中心合作</strong>，我觉得不得不提及最近总会被提及的<strong>可重复性问题</strong>。关于可重复性问题，个人认为这一问题的根本原因并不是伪造数据，选择性报告结果或p-hacking（虽然这种现象真的存在，但不是主流）。更根本的原因应该是样本量与真实效应量之间的不对等，即研究问题的真实效应量往往很小，在小样本量的研究中得到的（统计显著的）结果往往是对效应量的高估，甚至假阳性；归结到一个词，就是统计效力（statistical power）问题。以常用的效应量Cohen’s d为例，在两组样本真实差异的效应量为0.3时，两组样本的分布有接近90%的重合，可以想象在这种情况下，如果仅从每一组中抽取少量的样本，得到的组间差异会呈现怎样一副图景（关于效应量的解释，推荐这个网页工具<a href="http://rpsychologist.com/d3/cohend/" target="_blank" rel="noopener">Interpreting Cohen’s d effect size</a>）。</p><p><strong>多中心合作</strong>的研究模式可能有以下几点优势：</p><ul><li>在单个中心资源有限的情况下，针对特定研究问题可以有更大的样本量</li><li>可以更稳定更全面的考察感兴趣效应，以及这一效应在不同数据集之间的变异</li><li>数据互通有无，充分利用资源：比如，可能有些数据A实验室有，但是A实验室并不感兴趣，但是这些数据可能对B实验室的研究问题极为重要</li><li>研究方法互通有无，使研究更全面：比如，B实验室可以提供A实验室目前并不熟悉的分析方法，可以让数据分析更全面</li><li>结果讨论相互补充，使讨论更深入：比如，B实验室可能从A实验室不熟悉的视角提供对结果的不同解读</li></ul><p>这里仅列举几例，多中心合作的优势绝不止这几点。当然多中心合作也存在一些潜在的问题和约束，比如数据质量控制问题，比如数据共享中的隐私保护问题，比如数据分享中的约束可能导致的特定研究无法深入的问题，等等。个人认为这些问题基本都可以通过人为努力尽量避免，即使特定情况下无法避免，基于大样本的多中心合作的研究结果也是对现有研究模式的强有力的补充。</p><p>最近在思考基于中国的资源成立类似多中心合作的联盟的可能性（比如以“<strong>脑与个体差异</strong>”为主题），也和几位同行做了一些交流，总体是可行的。大致模式可以如下：</p><ul><li>单个中心不需要事先共享数据，仅需要提供自己已经采集的数据，测量和样本信息，比如脑影像数据模态、行为测量等</li><li>研究者提出研究问题，并明确需要的测量和数据要求，比如脑影像数据测量指标和行为测量名称</li><li>其他研究者采用自愿加入模式，对感兴趣的研究问题自愿选择是否加入研究项目</li><li>各个中心定期更新自有数据的信息</li><li>成果署名采用国际惯例，主要研究者决定第一作者，通讯作者和资深作者，其他所有贡献者作为共同作者（根据贡献大小或姓氏拼音排名）</li><li>平台起初仅限内部共享，组织内部共享信息</li><li>项目初期可以以邮件列表的形式开展，通过收集研究想法和数据需求–&gt;发布信息到邮件列表中各研究者–&gt;研究者直接联系并参与项目–&gt;文章写作和发表等流程实现；当然如果能有基金支持，可以形成一个网络平台实现合作的自动交互</li></ul><p>欢迎感兴趣的同行一起交流学习。</p><hr><p>附：目前我所知的国内的多中心合作研究，欢迎补充。</p><ul><li>中科院心理所（左西年老师）、北师大、杭州师大、中科院自动化所、南京大学、首都医科大学等和国外机构合作的关于脑功能连接组的重测数据集<br>Zuo, Xi-Nian, et al. “An open science resource for establishing reliability and reproducibility in functional connectomics.” Scientific data 1 (2014): 140049.</li><li>复旦大学（冯建峰老师）、西南大学（邱江老师）和国外大学合作的关于抑郁症脑功能异常的研究<br>Cheng, Wei, et al. “Medial reward and lateral non-reward orbitofrontal cortex circuits change in opposite directions in depression.” Brain 139.12 (2016): 3296-3309.</li><li>中科院心理所（严超赣老师）、国内多所大学（或附属医院）和国外研究机构合作的关于抑郁症静息态功能磁共振的多中心研究<br>Yan, Chao-Gan, et al. “Reduced but not Enhanced Default Mode Network Functional Connectivity in Major Depressive Disorder: Evidence from 25 Cohorts in the REST-meta-MDD Project.” bioRxiv (2018): 321745.</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;按照惯例，先放上论文的信息，方便查阅，也请多多指教。&lt;br&gt;Kong, X., Mathias, S. R., Guadalupe, T., ENIGMA Laterality Working Group, Glahn, D. C., Franke, B., Crivello, F., Tzourio-Mazoyer, N., Fisher, S. E., Thompson, P. M., &amp;amp; Francks, C. (2018). Mapping Cortical Brain Asymmetry in 17,141 Healthy Individuals Worldwide via the ENIGMA Consortium. Proceedings of the National Academy of Sciences of the United States of America. Advance online publication. &lt;a href=&quot;https://doi.org/10.1073/pnas.1718418115&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;doi:10.1073/pnas.1718418115&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/post_images/pnassites.jpg&quot; alt=&quot;脑皮层偏侧化研究中的多中心&quot;&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
+    
+    
+      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
+    
+      <category term="paper" scheme="http://conxz.net/tags/paper/"/>
+    
+  </entry>
   
   <entry>
     <title>学术发表用高质量图片保存</title>
@@ -187,7 +212,7 @@
     <link href="http://conxz.net/2017/09/26/redefine-significance-2/"/>
     <id>http://conxz.net/2017/09/26/redefine-significance-2/</id>
     <published>2017-09-26T05:13:10.000Z</published>
-    <updated>2018-03-08T22:40:59.411Z</updated>
+    <updated>2018-05-19T10:04:06.569Z</updated>
     
     <content type="html"><![CDATA[<p>Benjamin等(2017)提出重新定义显著性阈值的文章发表后，在网上引起了激烈的讨论。其中，Amrhein和Greenlan在同一期刊Nature Human Behavior上对Benjamin的文章做了回应，表示我们要抛弃显著性阈值。</p><p><img src="/images/post_images/p005.jpg" alt="p&lt;0.05 versus p&lt;0.005" title="p&lt;0.05 versus p&lt;0.005"></p><p>回应首先用三分法（Trichotomy）总结了Benjamin等人的建议，即p&lt;0.005为显著（significant），p<0.05为提示性（suggestive）证据，p>0.05为不显著（nonsignificant）。这里”三分法”的提法似乎在暗讽其与传统的二分法（Dichotomy）没有多大区别。<br>接下来，Amrhein和Greenlan引用原作者关于“p-hacking，selective reporting和publication bias等问题，相对于随机产生的false positives要严重的多”的描述，表面上赞同，实际上确以此引出了该回应的重点，即采用更高的阈值实际上会加剧上述提到的几个更为严重的问题，比如更多的p hacking和selective reporting问题。</0.05为提示性（suggestive）证据，p></p><p>Amrhein和Greenlan还指出了研究者中经常存在的一种对p值的误解，即误将显著与否等价于假设的真假，而忽略了实际数据中存在的不确定性。作者认为，在这种误解将持续的情况下，该“三分法”的提出，极有可能增加一些研究者在数据不显著时，对零假设的过度置信，造成盲目接受零假设而否认备择假设。如此，将严重减缓科学发展进程。</p><p>基于此，Amrhein和Greenlan提出，既然所有问题的来源都是显著性阈值，我们干脆抛弃这个阈值好了。作者认为，科学结论需要汇总多个研究汇总的信息以及一系列的证据，而不是依据某一个研究。为了确保文献汇总的有效性，研究结果不论其是否显著都应该予以发表。在这一模式下，p值只被看做为一个连续性值，而不是基于二分法或三分法的显著与否。</p><p>整个回应可以简单概括为依一句话：减低显著性阈值只会加剧现有的各种问题，我们不如完全抛弃显著与否这个概念，老老实实汇报原始的统计结果。</p><p>虽然笔者不是很赞同减低显著性阈值来解决研究结果可重复性的问题（显著性阈限是用来控制错误拒绝零假设造成的false positives，理论上如果没有人为干扰，这个阈限可以很好的发挥作用，比如<a href="http://conxz.net/2017/09/21/redefine-significance/">采用p=0.05阈值时，模拟数据显示，false positive rate可以很好的控制在5%</a>。实际上，之所以存在可重复性问题，更多的是人为的不合理行为，比如p-hacking和publication bias），但是如果完全抛弃显著性阈值，报告原始的p值的话，笔者着实好奇，如此做，学术界将会是怎样一副光景。</p><p>Benjamin, D. J. et al. Nature Hum. Behav. 1, 0189 (2017).<br>Amrhein，V. and Greenland S. Nature Hum. Bahav. (2017)</p>]]></content>
     
@@ -535,29 +560,6 @@
     
     
       <category term="bayes factor" scheme="http://conxz.net/tags/bayes-factor/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Head Motion is Not Simply a Technical Artifact（学术年会上的报告）</title>
-    <link href="http://conxz.net/2015/01/31/2015-01-31-head-motion-is-not-simply-a-technical-artifact/"/>
-    <id>http://conxz.net/2015/01/31/2015-01-31-head-motion-is-not-simply-a-technical-artifact/</id>
-    <published>2015-01-31T12:33:00.000Z</published>
-    <updated>2018-01-23T21:12:30.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>各位老师，同学，大家好！我报告的题目是“头动并非简单的技术噪声：脑成像中头动的心理和神经相关”。</p><p>核磁共振成像技术的出现，为研究人类心智和脑疾病提供了新的契机。但是，扫描过程会受到很多混淆因素的影响，比如头动。剧烈的头动不仅让脑偏移了位置，还会干扰信号采集。<strong>一直以来，研究者会在数据预处理中采用头动校正来消除头动带来的影响，但是近年来，人们发现头动校正是不够的。</strong>比如2012年连续有几篇很有影响的文章（van Dijk et al., 2012; Power et al., 2012; Satterthwaite et al., 2012; Ling et al., 2012）发现：即使采用了严格的头动校正，头动还是会影响功能连接和大脑白质测量。考虑到病人往往头动会相对严重，<strong>由此人们开始怀疑，以前发现的脑上的差异到底是脑损伤还是头动引起的扫描噪声</strong>。2012年以后人们的头动问题的关注不断增多，头动问题也开始让研究者重新思考疾病机理研究中脑影像的应用。<br><a id="more"></a></p><p><img src="/images/post_images/motion_2.jpg" alt="motion_2"></p><p>研究者也提出了各种进一步处理头动的方法：比如要匹配不同组之间的头动大小；回归分析的时候把头动当混淆变量回归掉等。<strong>这些处理方式大都基于一个并没有验证过的假设，就是头动只是简单的技术噪声。</strong>但是假如说头动本身携带了被试的有用信息的话，这些处理方法就会有问题。比如比较一组病人和正常人，如果要简单匹配头动的话，很容易<strong>导致采样的偏差</strong>：这样病人组可能只是病情不严重的病人。由于采样的偏差，得到的结论也就可能存在问题。</p><p>那么问题来了，<strong>头动真的只是简单的技术噪声吗？</strong></p><p>一种很直接想到的可能是：头动比较大的被试不能控制自己的行为。以往的观察也和这一猜想是一致的，比如adhd或者autism头动会严重一些；而儿童头动也比较成人大一些。另外，我们发现，<strong>头动在两次扫描间存在很好的一致性，也就是说重测信度比较好</strong>（van Dijk et al., 2012; <a href="https://peerj.com/articles/366/" title="Association between in-scanner head motion with cerebral white matter microstructure: a multiband diffusion-weighted MRI study" target="_blank" rel="noopener">Kong, 2014</a>; Zeng et al., 2014）。加上比较大的个体差异，我们假设，被试的冲动特质可能是引起头动的一个潜在因素，相对冲动的个体更容易头动。</p><p><img src="/images/post_images/motion_3.jpg" alt="motion_3"></p><p>接下来，我们在3个相对独立的数据集上验证了我们的假设（<a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0104989" title="Individual Differences in Impulsivity Predict Head Motion during Magnetic Resonance Imaging" target="_blank" rel="noopener">Kong et al., 2014</a>）。首先，我们从一组近600健康成人的数据集中提取了被试的头动测量和冲动测量。其中，头动从DTI数据的预处理来，这个指标综合了三个方向上的平移和旋转信息；冲动采用标准的BIS问卷。首先，我们发现个体的冲动特质与头动存在显著的正相关，即<strong>冲动得分越高，头动越大</strong>；进一步的在子维度上的关联分析发现，这一关系主要由“自我控制”这个子维度来贡献。</p><p>此外，我们采用更客观的计算机任务，经典的测量“冲突控制”flanker task，测量了一组179个健康成人的冲动测量。这个任务是这样：计算机屏幕会连续呈现5个箭头，被试的任务是通过按键判断中间箭头的朝向，任务分“一致条件”和“不一致条件”，不一致条件中四周的箭头与中间箭头方向不一致，起冲突作用，被试在不一致条件下的反应时一般会比一致条件下要长，这个反应时的差值就定义为这里的冲突控制能力的好坏。差值越大，冲突控制越差。我们发现，也呈现出一个正的相关，即<strong>冲突控制较差的被试，头动也相对较大。</strong></p><p><img src="/images/post_images/motion_4.jpg" alt="motion_4"></p><p>我们也在一组儿童的数据集上验证了我们的发现。首先，我们发现，<strong>在儿童的数据集上，冲动得分与头动存在正相关</strong>。这个相关在ADHD病人和正常对照中均显著。同时，ADHD在头动上显著大于正常对照组；<strong>中介分析发现，在头动上的差异可以完全由冲动得分来解释</strong>。儿童的数据进一步验证了我们的假设。</p><p>小结一下，通过综合3个方面的证据，我们发现头动并非简单的技术噪声，头动的个体差异至少体现了个体的冲动特质。那么，头动，作为一种稳定存在的，而且具有一定心理学意义的指标，<strong>它的神经生物学的基础是什么呢？</strong></p><p>如何回答这个问题呢？脑成像和头动是耦合在一起的，<strong>过大的头动必然影响成像信号，从而影响脑测量参数，而头动的个体差异也会体现脑测量参数的个体差异上。</strong></p><p><img src="/images/post_images/motion_5.jpg" alt="motion_5"></p><p>MGH的Liu Hesheng老师实验室采用<strong>精巧的实验设计，探索了头动在静息功能连接上的神经基础</strong>（Zeng et al., 2014）。作者采用了两个比较，一个是被试间的比较：头动大的被试与头动小的被试做比较；另一个是被试内的比较：头动大的session与头动小的session做比较。假如说发现的关联是纯噪声的话，那么我们预期，在这两组比较中得到类似的结果。但是作者发现，被试内的比较没有发现显著差异；而在被试间的比较则发现显著的关联，这些脑区主要分布在后扣带，内侧前额叶等默认网络相关的脑区。这个发现一方面为头动不是简单的技术噪声提供了新的证据；也暗示了默认网络相关脑区的静息活动可能参与了头动的调控，而头动的个体差异可能与默认网络相关的特定认知控制能力有关。</p><p><strong>我们就头动的神经生物学基础，从脑结构角度，也做了探索</strong>(Kong et al., In preparation)，这里和大家交流一下。</p><p>我们主要关注<strong>头动的个体差异与皮层厚度的关联</strong>，皮层厚度从被试脑结构MRI数据采用Freesurfer计算。为了在一定程度上控制头动对MRI带来的噪声的影响，我们做了一定的控制：被试上，采用<strong>健康成人的数据，保证能按照指导语保持头动</strong>；数据上，也做了一些<strong>追溯性的质量控制</strong>，比如保证没有明显的伪影，有比较清晰的灰质/白质对比，也估计了MRI数据的信噪比，作为控制。</p><p>第一组被试20人，有一组MRI的数据和扫描了两次的DTI数据。头动数据从DTI数据的预处理中提取，两次扫描的重测信度为0.54，和以往研究一致。为了更准确地量化个体的头动，这里采用两次头动测量的均值。从MRI的数据中得到皮层厚度的测量。考虑到头动对MRI数据的可能影响，这里估计了MRI数据的信噪比作为控制。<strong>关联分析发现，在左侧vmPFC的皮层厚度与头动存在显著关联。</strong>这是头动与局部皮层厚度测量的散点图，在控制掉SNR后相关保持显著。表明，vmPFC可能参与了头动控制的调控。</p><p>在另一组健康成人大学生的被试上，做了验证。首先，头动从DTI数据预处理中提取，根据头动大小，提取出了一组高头动的被试，和一组低头动的被试，匹配了性别、年龄、利手和SNR。<strong>结果发现，高头动组在vmPFC的局部皮层厚度上显著高于低头动组。验证了前面的结果。</strong>同时，我们提取了这组被试所有样本的皮层厚度参数，发现存在显著相关。</p><p><img src="/images/post_images/motion_6.jpg" alt="motion_6"></p><p>当然，虽然我们这里做了一定的控制，尽量避免头动对MRI数据质量的影响，但是目前的技术并不能100%排除噪声的干扰。不过最近的一篇文章在一定程度上可以排除我们发现的<strong>头动与脑结构的相关是头动诱发的噪声，而是头动相关的一种内表型</strong>。这个研究分别让被试在扫描过程中保持不动，使劲随便动,发现头动实际上会导致对皮层厚度的低估。可以看到头动引起的噪声在我们感兴趣的vmPFC脑区也是显著降低对皮层厚度的估计。这在一定程度上排除了我们的发现的相关是头动引起的噪声引起的。也就是说vmPFC可能参与了头动控制的调控。</p><p>现在回到报告开始的问题。脑成像中的头动真的只是简单的技术噪声吗？<strong>我的报告从头动的心理和神经相关两个方面的证据说明了，头动并非简单的技术噪声。</strong>因此，我们需要更全面的认识脑影像中的头动问题，一方面可以帮助我们更好的处理甚至避免头动对脑影像的影响，同时，作为MRI数据预处理的一个副产品，头动本身可以反映被试的心理或临床状况，在一定程度上可以辅助疾病的诊断。</p><p>你可能会问了：头动和脑测量的关联，<strong>既可能是头动引发的噪音，又有可能头动相关的内表型，那么在研究中到底该如何处理头动的问题？</strong></p><p><img src="/images/post_images/motion_7.jpg" alt="motion_7"></p><p>说实话，这是一个很困难的问题，尤其在目前的成像技术条件下。这里提三点可能的解决方案：</p><ul><li>报告中<strong>同时呈现控制和不控制头动的结果</strong>，尤其在两种分析结果不一致时，要从头动诱发的噪声和头动相关的内表型两个角度做讨论；</li><li><strong>在独立数据集上重复分析结果</strong>：一般来讲头动引起的噪声是随机的，在独立数据上重复分析结果可以在一定程度上排除头动引起的噪声的影响；</li><li>当然，最理想的是能够在扫描的过程中讲头动的干扰降到最低，比如扫描时尽量减小被试的头动，采用一些预见性校正头动的成像序列等。其中<strong>最简单的方法还是要尽量减小被试头动。</strong></li></ul><p><img src="/images/post_images/motion_8.jpg" alt="motion_8"></p><p>最后，感谢刘嘉老师，甄宗雷老师，贺永老师和臧玉峰老师给予的指导。同时，感谢刘嘉课题组的所有成员在数据采集上的贡献。还要特别感谢ADHD-200和NKI-RS两个数据共享项目，这些共享数据使多数据集验证成为可能。</p><p>谢谢大家！</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;各位老师，同学，大家好！我报告的题目是“头动并非简单的技术噪声：脑成像中头动的心理和神经相关”。&lt;/p&gt;
-&lt;p&gt;核磁共振成像技术的出现，为研究人类心智和脑疾病提供了新的契机。但是，扫描过程会受到很多混淆因素的影响，比如头动。剧烈的头动不仅让脑偏移了位置，还会干扰信号采集。&lt;strong&gt;一直以来，研究者会在数据预处理中采用头动校正来消除头动带来的影响，但是近年来，人们发现头动校正是不够的。&lt;/strong&gt;比如2012年连续有几篇很有影响的文章（van Dijk et al., 2012; Power et al., 2012; Satterthwaite et al., 2012; Ling et al., 2012）发现：即使采用了严格的头动校正，头动还是会影响功能连接和大脑白质测量。考虑到病人往往头动会相对严重，&lt;strong&gt;由此人们开始怀疑，以前发现的脑上的差异到底是脑损伤还是头动引起的扫描噪声&lt;/strong&gt;。2012年以后人们的头动问题的关注不断增多，头动问题也开始让研究者重新思考疾病机理研究中脑影像的应用。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="BrainResearch" scheme="http://conxz.net/categories/BrainResearch/"/>
-    
-    
-      <category term="head motion" scheme="http://conxz.net/tags/head-motion/"/>
     
   </entry>
   
