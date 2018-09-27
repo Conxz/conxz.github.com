@@ -8,8 +8,6 @@ Benjamin等(2017)提出重新定义显著性阈值的文章发表后，在网上
 
 ![p<0.05 versus p<0.005](/images/post_images/p005.jpg "p<0.05 versus p<0.005")
 
-
-
 回应首先用三分法（Trichotomy）总结了Benjamin等人的建议，即p<0.005为显著（significant），p<0.05为提示性（suggestive）证据，p>0.05为不显著（nonsignificant）。这里”三分法”的提法似乎在暗讽其与传统的二分法（Dichotomy）没有多大区别。
 接下来，Amrhein和Greenlan引用原作者关于“p-hacking，selective reporting和publication bias等问题，相对于随机产生的false positives要严重的多”的描述，表面上赞同，实际上确以此引出了该回应的重点，即采用更高的阈值实际上会加剧上述提到的几个更为严重的问题，比如更多的p hacking和selective reporting问题。
 

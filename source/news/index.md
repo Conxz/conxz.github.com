@@ -3,8 +3,7 @@ layout: page
 comments: False
 date: 2018-02-05 21:46:26
 ---
-`May 15, 2018` Paper **Mapping Cortical Brain Asymmetry in 17,141 Healthy Individuals Worldwide via the ENIGMA Consortium** published in *PNAS*. [Link](https://doi.org/10.1073/pnas.1718418115) | [Full Text PDF](http://pubman.mpdl.mpg.de/pubman/item/escidoc:2585071:9/component/escidoc:2588691/kong_etal_2018.pdf)
-
+`May 15, 2018` Paper **Mapping Cortical Brain Asymmetry in 17,141 Healthy Individuals Worldwide via the ENIGMA Consortium** published in *PNAS*. [Link](https://doi.org/10.1073/pnas.1718418115) | [Full Text PDF](http://pubman.mpdl.mpg.de/pubman/item/escidoc:2585071:9/component/escidoc:2588691/kong_etal_2018.pdf) | Media Reports: [MPI News](http://www.mpi.nl/news/a-new-map-of-asymmetry-in-the-human-brain) - [Spectrum News](https://www.spectrumnews.org/news/spotted/cerebral-palsy-connection-misleading-expressions-multiple-maladies/) 
 `May 10, 2018` Presented a poster **A Survey of Altered Brain Anatomical Asymmetry in Obsessive-Compusive Disorder** at the [Society of Biological Psychiatry Annual Meeting](https://sobp.societyconference.com/conf_website/c29icC5zb2NpZXR5Y29uZmVyZ/) in New York City, USA
 
 `May 8, 2018` Gave a talk **Mapping Brain Asymmetry: Updates from the ENIGMA Lateralization Group** at the ENIGMA meeting, New York City
