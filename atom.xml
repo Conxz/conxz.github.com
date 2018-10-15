@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://conxz.net/"/>
-  <updated>2018-07-07T17:58:08.229Z</updated>
+  <updated>2018-10-15T20:58:39.904Z</updated>
   <id>http://conxz.net/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>研究前沿先睹为快</title>
+    <link href="http://conxz.net/2018/10/15/paper-preview/"/>
+    <id>http://conxz.net/2018/10/15/paper-preview/</id>
+    <published>2018-10-15T20:09:44.000Z</published>
+    <updated>2018-10-15T20:58:39.904Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一个“快”时代，科学研究也不例外。以脑影像研究为例，在过去几年，越来越多的研究者选择将科研论文在正式发表之前，先以预印本Preprint的形式上传到Preprint平台上。采用这方式，科研成果往往可以提前1年，甚至更长时间让领域同行公开获取，一方面加快科研成果的快速交流，促进领域发展；同时，也有利于确立研究成果的首发权。目前相对被领域认可的Preprint平台见文后列表。<br>笔者注意到，一些期刊开始向读者提供一项免费的“先睹为快”服务，即在作者同意的情况下，将处在审稿中Under Review的论文提供给读者公开获取。</p><p>其中一个例子为Nature Communications。Nature Communications是开放获取期刊中的佼佼者，在开放获取期刊备受争议的今天，<a href="http://conxz.net/2018/07/06/journalsci2017/">该期刊以12分左右的影响因子，独树一帜，备受追捧</a>。不过，这一期刊的不足之处是版面费贵到爆，单篇搞到5000多美刀。目前，该期刊提供一个名为“Under Consideration”论文列表服务。读者可以通过这一列表，查看目前处于该期刊审稿状态的论文信息。值得注意的是，该期刊仅提供列表和基本信息，作者如果选择这一服务，需要首先将论文上传到领域公认的Preprint平台，以便读者下载全文。感兴趣的研究者可以通过这一服务对目前处在审稿状态的论文先睹为快。该列表链接为<a href="https://nature-research-under-consideration.nature.com/" target="_blank" rel="noopener">Nature Communications Under Consideration</a></p><p>此外，Cell系列的期刊也提供了类似的服务，并命名为Cell Press Sneak Peek，名字堪称生动形象。该服务通过Preprint平台SSRN提供，并涵盖了Cell系列耳熟能详的期刊，包括Neuron，Cell，Current Biology和Cell Report等。读者可以通过该服务提前获取目前处在审稿状态的论文信息。注意，是否选择将论文加入该列表，取决于作者的选择，因此，这一列表只是部分处在审稿状态的论文。该服务的链接为<a href="https://papers.ssrn.com/sol3/Jeljour_results.cfm?form_name=journalBrowse&amp;journal_id=3184889" target="_blank" rel="noopener">Cell Press Sneak Peek</a></p><p>心理与脑科学相关领域认可的Preprint平台举例：</p><ul><li><a href="https://arxiv.org/" target="_blank" rel="noopener">arXiv</a>, <a href="https://arxiv.org/" target="_blank" rel="noopener">https://arxiv.org/</a></li><li><a href="http://www.biorxiv.org/" target="_blank" rel="noopener">bioRxiv</a>, <a href="http://www.biorxiv.org/" target="_blank" rel="noopener">http://www.biorxiv.org/</a></li><li><a href="https://psyarxiv.com/" target="_blank" rel="noopener">PsyArXiv</a>, <a href="https://psyarxiv.com/" target="_blank" rel="noopener">https://psyarxiv.com/</a></li><li><a href="https://peerj.com/preprints-search/" target="_blank" rel="noopener">PeerJ Preprints</a>, <a href="https://peerj.com/preprints-search/" target="_blank" rel="noopener">https://peerj.com/preprints-search/</a></li><li><a href="https://osf.io/preprints" target="_blank" rel="noopener">OSF Preprints</a>, <a href="https://osf.io/preprints" target="_blank" rel="noopener">https://osf.io/preprints</a></li><li><a href="https://www.preprints.org/" target="_blank" rel="noopener">Preprints</a>, <a href="https://www.preprints.org/" target="_blank" rel="noopener">https://www.preprints.org/</a></li><li><a href="https://www.ssrn.com/en/" target="_blank" rel="noopener">SSRN</a>, <a href="https://www.ssrn.com/en/" target="_blank" rel="noopener">https://www.ssrn.com/en/</a></li></ul><p>中国Preprint平台</p><ul><li>中国科学院科技论文预发布平台 <a href="http://chinaxiv.org/" target="_blank" rel="noopener">ChinaXiv</a>, <a href="http://chinaxiv.org/" target="_blank" rel="noopener">http://chinaxiv.org/</a></li><li>国家科技图书文献中心 <a href="http://prep.istic.ac.cn/" target="_blank" rel="noopener">中国预印本服务系统</a>, <a href="http://prep.istic.ac.cn/" target="_blank" rel="noopener">http://prep.istic.ac.cn/</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是一个“快”时代，科学研究也不例外。以脑影像研究为例，在过去几年，越来越多的研究者选择将科研论文在正式发表之前，先以预印本Preprint的形式上传到Preprint平台上。采用这方式，科研成果往往可以提前1年，甚至更长时间让领域同行公开获取，一方面加快科研成果的快速交流
+      
+    
+    </summary>
+    
+      <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
+    
+    
+      <category term="paper" scheme="http://conxz.net/tags/paper/"/>
+    
+      <category term="publication" scheme="http://conxz.net/tags/publication/"/>
+    
+      <category term="neuroscience" scheme="http://conxz.net/tags/neuroscience/"/>
+    
+  </entry>
   
   <entry>
     <title>脑科学期刊最新影响因子和中美差距</title>
@@ -350,9 +379,9 @@
     
       <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
-      <category term="data sharing" scheme="http://conxz.net/tags/data-sharing/"/>
-    
       <category term="neuroscience" scheme="http://conxz.net/tags/neuroscience/"/>
+    
+      <category term="data sharing" scheme="http://conxz.net/tags/data-sharing/"/>
     
   </entry>
   
@@ -379,9 +408,9 @@
     
       <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
-      <category term="data sharing" scheme="http://conxz.net/tags/data-sharing/"/>
-    
       <category term="neuroscience" scheme="http://conxz.net/tags/neuroscience/"/>
+    
+      <category term="data sharing" scheme="http://conxz.net/tags/data-sharing/"/>
     
   </entry>
   
@@ -519,42 +548,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Bayes Factor (简述贝叶斯因子) [1]</title>
-    <link href="http://conxz.net/2015/05/23/2015-05-16-introduction-to-bayes-factor/"/>
-    <id>http://conxz.net/2015/05/23/2015-05-16-introduction-to-bayes-factor/</id>
-    <published>2015-05-23T20:53:00.000Z</published>
-    <updated>2018-01-23T21:12:30.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>Bayes factor是什么？</strong></p><p>最近读文献，发现研究者开始使用Bayes factor来说明一些问题（比如Russell实验室的新文Julian et al., 2015），看来大势所趋了，需要学习一下。</p><p>Bayes factor（贝叶斯因子）被用来描述一个理论优于另一个理论的相对确证性（ the relative evidence for one theory over another ）(Dienes, 2014)，采用数学符号表示即</p><p><img src="/images/post_images/bayes_2.jpg" alt=""></p><p>其中，x为观测到的数据，H0和H1分别为两种理论或模型，p(x|Hi)表示Hi成立时，观测到x的概率，即x数据底层模型满足Hi的概率。实际上p(x|Hi)的一个常用的名字叫似然概率（likelihood），这样，Bayes factor因为由基于两个模型的likelihood的比值定义，也被称为似然比（likelihood ratio）。</p><p>因此，Bayes factor量化的就是数据x支持不同理论的确证性，换句话说，Bayes factor量化的是数据x支持模型A的概率是支持模型B的概率的倍数。为了使用方便，研究者给不同大小的Bayes factor打上了类似假设检验中“显著”“边缘显著”“不显著”的标签（Jeffreys H.，1939/1961）： 一般大于3或小于1/3被认为是实质性的证据（substantial evidence）；而1/3到3之间则被认为是较弱或有待验证的证据（weak or anecdotal evidence） </p><p>参考文献：</p><ul><li><p>Julian et al. (2015). Place recognition and heading retrieval are mediated by dissociable cognitive systems in mice. Proc.Natl.Acad.Sci.U.S.A. www.pnas.org/cgi/doi/10.1073/pnas.1424194112</p></li><li><p>Dienes Z. (2014). Using Bayes to get the most out of non-significant results. Front.Psychol. 5:781. doi:10.3389/fpsyg.2014.00781</p></li><li><p>Jeffreys, H. (1939/1961). The Theory of Probability, 1st/3rd Edn. Oxford, England: Oxford University Press.</p></li></ul><a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;Bayes factor是什么？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;最近读文献，发现研究者开始使用Bayes factor来说明一些问题（比如Russell实验室的新文Julian et al., 2015），看来大势所趋了，需要学习一下。&lt;/p&gt;
-&lt;p&gt;Bayes factor（贝叶斯因子）被用来描述一个理论优于另一个理论的相对确证性（ the relative evidence for one theory over another ）(Dienes, 2014)，采用数学符号表示即&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/post_images/bayes_2.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;其中，x为观测到的数据，H0和H1分别为两种理论或模型，p(x|Hi)表示Hi成立时，观测到x的概率，即x数据底层模型满足Hi的概率。实际上p(x|Hi)的一个常用的名字叫似然概率（likelihood），这样，Bayes factor因为由基于两个模型的likelihood的比值定义，也被称为似然比（likelihood ratio）。&lt;/p&gt;
-&lt;p&gt;因此，Bayes factor量化的就是数据x支持不同理论的确证性，换句话说，Bayes factor量化的是数据x支持模型A的概率是支持模型B的概率的倍数。为了使用方便，研究者给不同大小的Bayes factor打上了类似假设检验中“显著”“边缘显著”“不显著”的标签（Jeffreys H.，1939/1961）： 一般大于3或小于1/3被认为是实质性的证据（substantial evidence）；而1/3到3之间则被认为是较弱或有待验证的证据（weak or anecdotal evidence） &lt;/p&gt;
-&lt;p&gt;参考文献：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Julian et al. (2015). Place recognition and heading retrieval are mediated by dissociable cognitive systems in mice. Proc.Natl.Acad.Sci.U.S.A. www.pnas.org/cgi/doi/10.1073/pnas.1424194112&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Dienes Z. (2014). Using Bayes to get the most out of non-significant results. Front.Psychol. 5:781. doi:10.3389/fpsyg.2014.00781&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Jeffreys, H. (1939/1961). The Theory of Probability, 1st/3rd Edn. Oxford, England: Oxford University Press.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-      <category term="Methods" scheme="http://conxz.net/categories/Methods/"/>
-    
-    
-      <category term="bayes factor" scheme="http://conxz.net/tags/bayes-factor/"/>
     
   </entry>
   
