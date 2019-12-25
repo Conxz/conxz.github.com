@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://conxz.net/"/>
-  <updated>2019-06-04T20:34:21.544Z</updated>
+  <updated>2019-12-25T20:51:51.574Z</updated>
   <id>http://conxz.net/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>添加Google AdSense到Hexo博客</title>
+    <link href="http://conxz.net/2019/12/25/google-adsense-add-to-hexo/"/>
+    <id>http://conxz.net/2019/12/25/google-adsense-add-to-hexo/</id>
+    <published>2019-12-25T16:51:52.000Z</published>
+    <updated>2019-12-25T20:51:51.574Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近费了一些周折，终于解决了困扰已久的<code>You already have an existing AdSense account</code>问题。Google AdSense通过了审核。下面记录一下添加Google AdSense代码到基于Hexo博客的解决方案，一是备查，二是没准可以帮到新手。</p><p>Hexo博客，使用了maupassant模板。如果是别的模板，解决方案应该也可以参考。</p><a id="more"></a><p>首先在Hexo的_config.yml文件中添加下面一行(注意替换自己的AdSense ID)：<br><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">google_adsense:</span> ca-pub<span class="number">-7680017147908727</span></span><br></pre></td></tr></table></figure></p><p>进入manupassant模板目录themes/maupassant，在layout/_partial目录中可以看到一系列子模块文件。找到head.pug，添加下面的代码。<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> config.google_adsense</span><br><span class="line">    script(<span class="attribute">data-ad-client</span>=config.google_adsense, async <span class="attribute">src</span>=<span class="string">'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'</span>)</span><br></pre></td></tr></table></figure></p><p>调试，完工。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近费了一些周折，终于解决了困扰已久的&lt;code&gt;You already have an existing AdSense account&lt;/code&gt;问题。Google AdSense通过了审核。下面记录一下添加Google AdSense代码到基于Hexo博客的解决方案，一是备查，二是没准可以帮到新手。&lt;/p&gt;
+&lt;p&gt;Hexo博客，使用了maupassant模板。如果是别的模板，解决方案应该也可以参考。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
+    
+    
+      <category term="blog" scheme="http://conxz.net/tags/blog/"/>
+    
+      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
+    
+      <category term="google adsense" scheme="http://conxz.net/tags/google-adsense/"/>
+    
+  </entry>
   
   <entry>
     <title>我的黑洞计划：刻画强迫症中的脑不对称性异常</title>
@@ -460,9 +487,9 @@
     
       <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
-      <category term="data sharing" scheme="http://conxz.net/tags/data-sharing/"/>
-    
       <category term="neuroscience" scheme="http://conxz.net/tags/neuroscience/"/>
+    
+      <category term="data sharing" scheme="http://conxz.net/tags/data-sharing/"/>
     
   </entry>
   
@@ -489,9 +516,9 @@
     
       <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
-      <category term="data sharing" scheme="http://conxz.net/tags/data-sharing/"/>
-    
       <category term="neuroscience" scheme="http://conxz.net/tags/neuroscience/"/>
+    
+      <category term="data sharing" scheme="http://conxz.net/tags/data-sharing/"/>
     
   </entry>
   
@@ -541,31 +568,6 @@
     
     
       <category term="freesurfer" scheme="http://conxz.net/tags/freesurfer/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>WGCNA Background</title>
-    <link href="http://conxz.net/2017/02/08/WGCNA-Background/"/>
-    <id>http://conxz.net/2017/02/08/WGCNA-Background/</id>
-    <published>2017-02-08T19:38:27.000Z</published>
-    <updated>2018-01-23T21:12:30.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>WGCNA是Weighted Gene Co-expression Network Analysis的简称，其从网络连接的角度出发，考查基因之间的交互。该方法的提出背景是通过微阵列（microarray）实验可以获取的信息远多于仅得到一组差异表达的基因（differentially expressed genes）。基于微阵列microarray数据，我们可以通过计算基因表达模式（gene expression profiles）之间的相关来考查不同基因之间的交互。采用WGCNA方法，可以从数千基因的表达水平数据中识别可能具有临床价值的基因模块（gene modules），并最终采用模块内连接（intramodular connectivity）和基因-特质相关（gene significance）来发现某些疾病通路的关键基因，用于进一步验证。</p><p>WGCNA很好地解决了传统微阵列数据分析（microarray data analysis）中的多重检验问题（multiple testing problem）。与将数千基因的表达水平分别和样本的某一特质进行关联分析的做法不同，WGCNA方法重点关注少数模块（modules）与样本特质之间的关联。为此，该方法计算特征基因关联（即样本特质与模块特征基因分数之间的相关），并针对每个模块（module）得到相应的p值。</p><p>此外，虽然一般还会将得到的模块与本体ontology信息相关联，以探索模块的生物学意义，但是这并非必须。因为模块可能对应了生物学通路，关注模块内的核心基因（intramodular hub genes）也意味着一种基于生物学考虑的数据降维策略。因为模块内核心基因的表达模式是高度相关的，一般会得到许多候选生物标记（biomarkers）。虽然这些候选基因在统计上是等同的，但他们在生物学意义或临床应用上确可能不同。基因本体ontology信息可以在进一步筛选模块内基因中发挥作用。</p><p>在实际的WGCNA分析中，涉及到的网络分析概念与脑网络分析中的概念是类似的。比如共表达网络（co-expression network）即由基因作为节点，基因表达水平的相关值作为连接而构成。模块（modules）即一组高度相关的基因。度（degree）和模块内度（intramodular degree）也是类似的概念，不过在WGCNA中也会用connectivity一词代替degree使用。模块特征基因（module eigengene）被定义为给定模块的第一个主成分，是该模块最具代表性的表达模式。特征基因相关（eigengene significance）即模块特征基因与某一样本特质之间的相关值。另一个相关的概念是模块归属（module membership），也称基于特征基因的连接，即某个基因的表达模式与某模块特征基因之间的相关；因此该值越大，表示该基因可能归属这个模块。核心基因（hub gene）是高度连接的基因（highly connected genes）的别称。<br>此外，基因相关（gene significance）即基因表达模式与某样本特质之间的相关，一般相关值越大，表示该基因越重要，比如它可能参与编码通路归属（pathway membership）等。有时候也用负log（p）来量化这个基因相关（gene significance）。模块相关（module significance）的定义是该模块中所有基因相关绝对值的均值。当基因相关是基于基因表达模式与样本特质之间的相关值时，该测量与模块特征基因和样本特质之间存在高相关。</p><p>下图是一个典型的网络分析流程。</p><p><img src="/images/post_images/wgcna.png" alt="wgcna pipeline" title="WGCNA"></p><ol><li>构建基因共表达网络。基本目的是充分利用基因间的交互模式；采用相关系数作为共表达的测量。</li><li>识别模块。基本目的是模块分析；可以采用层次聚类（hierarchical clustering）或动态树切分（dynamic tree cut）实现。</li><li>将模块与外部信息关联。其中外部信息包括基于阵列的临床数据（clinical data），多态性数据（SNPs）和蛋白组数据（proteomics）；基因信息包括ontology和功能富集（functional enrichment）。基本目的是发现具有生物学意义的模块。</li><li>研究模块之间的关联。基本目的是生物数据降维，并提供系统水平的视角（system-level view）；采用eigengene网络实现。</li><li>最后发现感兴趣模块的关键驱动子（key drivers）。基本目的是实验验证并明确生物标记（biomarker）；采用的手段可以是模块内连接（intramodular connectivity）以及因果检验（causality testing）。</li></ol><p>参考来源 <a href="https://labs.genetics.ucla.edu/horvath/CoexpressionNetwork/Rpackages/WGCNA/" target="_blank" rel="noopener">WGCNA: an R package for weighted correlation network analysis</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;WGCNA是Weighted Gene Co-expression Network Analysis的简称，其从网络连接的角度出发，考查基因之间的交互。该方法的提出背景是通过微阵列（microarray）实验可以获取的信息远多于仅得到一组差异表达的基因（differenti
-      
-    
-    </summary>
-    
-      <category term="Tools" scheme="http://conxz.net/categories/Tools/"/>
-    
-    
-      <category term="gene" scheme="http://conxz.net/tags/gene/"/>
     
   </entry>
   
