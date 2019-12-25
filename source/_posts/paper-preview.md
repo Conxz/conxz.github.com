@@ -25,4 +25,5 @@ category: OpenScience
 
 **中国Preprint平台**
 - 中国科学院科技论文预发布平台 [ChinaXiv](http://chinaxiv.org/), http://chinaxiv.org/
+- 中国心理学预印本平台 [PsyChinaXiv](http://psych.chinaxiv.org/), http://psych.chinaxiv.org/
 - 国家科技图书文献中心 [中国预印本服务系统](http://prep.istic.ac.cn/), http://prep.istic.ac.cn/

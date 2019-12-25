@@ -11,9 +11,10 @@ My name is Xiangzhen Kong, currently a research staff at the Max Planck Institut
 - Exploring genetic basis of brain asymmetry and language network.
 - Applications in disorders related to abnormal brain asymmetry.
 
-![](https://scontent-ams3-1.cdninstagram.com/t51.2885-15/e35/14499057_1831381420427746_1316494745664487424_n.jpg)
+**CV**
+- Here is my CV, in PDF format (last updated Jan. 2019): [CV](/about/Xiangzhen Kong_cv.pdf)
 
-Networks:
+**Personal Pages**
 - ResearchGate [Xiang-Zhen Kong](https://www.researchgate.net/profile/Xiang_Zhen_Kong2)
 - Google Scholar [Xiang-Zhen Kong](https://scholar.google.com/citations?user=AGsaPnQAAAAJ&hl=en)
 - Personal webpage at the MPI [Xiangzhen Kong](http://www.mpi.nl/people/kong-xiangzhen)

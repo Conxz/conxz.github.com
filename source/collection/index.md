@@ -9,9 +9,16 @@ Any suggestions and recommendations will be very appreciated!
 - [Gene expression data for human brain](http://human.brain-map.org/) by Allen Institute
 - [UK Biobank](http://www.ukbiobank.ac.uk/) | [Oxford Brain Imaging Genetics (BIG) Server](http://big.stats.ox.ac.uk/)
 - [Preprocessed Connectomes Project](http://preprocessed-connectomes-project.org/)
-- [OpenfMRI](https://openfmri.org/)
+- [OpenfMRI](https://openfmri.org/) | [OpenNeuro](https://openneuro.org/)
 - [COGNOMICS](http://www.cognomics.nl/index.php)
 - FCON1000: [ABIDE I](http://fcon_1000.projects.nitrc.org/indi/abide/abide_I.html) | [ABIDE II](http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html)
+- OASIS: [OASIS](http://www.oasis-brains.org/)
+- COINS: [Collaborative Informatics and Neuroimaging Suite](https://coins.mrn.org/)
+- Neurosynth: [Neurosynth](http://neurosynth.org/) | Neurovault: [Neurovault](https://neurovault.org/)
+- HCP: [HCP](https://www.humanconnectome.org/) | Young Adult HCP | Lifespan HCP | HCP Development | HCP Aging | Baby Connectome Project
+- MultiBrain: [multiBrain](https://github.com/Conxz/multiBrain)
+- [Midnight Scan Club](https://openneuro.org/datasets/ds000224/versions/00002)
+- [MASSIVE](http://www.massive-data.org/)
 
 ## Tools
 - [Nipype](http://nipype.readthedocs.io/en/0.12.1/): Neuroimaging in Python.
@@ -31,6 +38,11 @@ Any suggestions and recommendations will be very appreciated!
 - Naming: [Acronym Creator](http://acronymcreator.net/)
 - Visualization: [Projector.Tensorflow](https://projector.tensorflow.org/) | [RAWGraphs](http://rawgraphs.io/) | [SANDDANCE](https://sanddance.azurewebsites.net/) | [CART: Location](https://carto.com/) | [Vizualism.nl](http://www.vizualism.nl/) | [Wordle](http://www.wordle.net) | [worldcloud](https://www.jasondavies.com/wordcloud/)
 - [1000 Genomes data in Ensembl](http://www.internationalgenome.org/1000-genomes-browsers)
+- Python Tools: [numexpr](https://github.com/pydata/numexpr): Fast numerical expression evaluator for NumPy | 
+- R Tools: [feather](https://cran.r-project.org/web/packages/feather/index.html): Read and write feather files, a lightweight binary columnar data store designed for maximum speed | 
+
+## Network Analysis
+- [SIENA](https://www.stats.ox.ac.uk/~snijders/siena/)
 
 ## Brain Atlas
 - [Freesurfer cortical parcellation](https://surfer.nmr.mgh.harvard.edu/fswiki/CorticalParcellation)
@@ -44,8 +56,13 @@ Any suggestions and recommendations will be very appreciated!
 - [Slice Timing](https://en.wikibooks.org/wiki/Neuroimaging_Data_Processing/Slice_Timing)
 - [Multimodal Integration](http://surfer.nmr.mgh.harvard.edu/fswiki/FsTutorial/MultiModal_freeview)
 - [The Brain Made Simple](https://github.com/Conxz/thebrainmadesimple/blob/master/README.md)
+- [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python)
 
-## Talks & Lectures
+## Books
+- [Innate: How the Wiring of Our Brains Shapes Who We Are](https://press.princeton.edu/titles/13255.html)
+- [I Am a Strange Loop](https://book.douban.com/subject/30335756/)
+
+## Talks, Lectures & Videos
 - Could We Soon Augment Our Brains? Deblina Sarkar [Link](https://www.youtube.com/watch?v=GZLKFDWtNX8&feature=youtu.be)
 - [Biomedical & Life Sciences Lectures by leading world experts](https://hstalks.com/biosci/)
 
@@ -68,6 +85,8 @@ Any suggestions and recommendations will be very appreciated!
 - [Xin Di](http://me.dixin.info/Home)
 - [basic statistics](https://garstats.wordpress.com/)
 - [MVPA Meanderings](http://mvpa.blogspot.nl/)
+- [BRAIN STUFF](https://brainstuff.org/)
+- [Kong Brain Observatory](http://conxz.net/)
 
 ## Brain Projects
 - [Human Brain Project](https://www.humanbrainproject.eu/)
