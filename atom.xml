@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://conxz.net/"/>
-  <updated>2019-12-25T20:51:51.574Z</updated>
+  <updated>2019-12-26T18:46:32.088Z</updated>
   <id>http://conxz.net/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Google AdSense多账号问题解决方案</title>
+    <link href="http://conxz.net/2019/12/26/fix-multple-google-adsense-account-issues/"/>
+    <id>http://conxz.net/2019/12/26/fix-multple-google-adsense-account-issues/</id>
+    <published>2019-12-26T17:37:46.000Z</published>
+    <updated>2019-12-26T18:46:32.088Z</updated>
+    
+    <content type="html"><![CDATA[<p>原则上Google限制同一个用户仅可拥有一个AdSense账号。如果在以往尝试使用不同的gmail邮箱多次注册Google AdSense账号，通常会碰到多账号问题，即类似<code>You have an adsense that already exists</code>的问题。Google官方给的解决方案是登录AdSense账号后，选择取消相应的账号。但是，如果用户多次申请的账号都未通过审核，用户是不可能通过登录相应的AdSense账号来完成相关账号的取消的。于是，便陷入了一个死循环的状态：由于多账号问题无法通过审核&lt;—&gt;由于未通过审核无法取消申请账号。</p><p>经过一些周折，找到一个间接的解决方案，这里记录备查。<a id="more"></a></p><p>解决方案的基本逻辑是，开通Google AdSense必须在Google账号（比如gmail）中绑定支付方式；如果直接删除支付方式，便可以连带Google AdSense账户一起删除。具体而言，</p><ul><li>登录Google账号，进入My Account界面</li><li>选择支付和订阅Payments &amp; subscriptions，在支付方法Payment methods中进入支付方式管理Manage payment methods</li><li>在页面左侧选择设置Settings，之后就可以在页面最下方看到关闭支付信息Close payment profile链接</li><li>点击后，根据提示填写相关信息，即可。</li><li>在操作成功后，gmail邮箱会受到两个支付信息关闭的邮件，其中一个便是提示Google AdSense取消成功。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;原则上Google限制同一个用户仅可拥有一个AdSense账号。如果在以往尝试使用不同的gmail邮箱多次注册Google AdSense账号，通常会碰到多账号问题，即类似&lt;code&gt;You have an adsense that already exists&lt;/code&gt;的问题。Google官方给的解决方案是登录AdSense账号后，选择取消相应的账号。但是，如果用户多次申请的账号都未通过审核，用户是不可能通过登录相应的AdSense账号来完成相关账号的取消的。于是，便陷入了一个死循环的状态：由于多账号问题无法通过审核&amp;lt;—&amp;gt;由于未通过审核无法取消申请账号。&lt;/p&gt;
+&lt;p&gt;经过一些周折，找到一个间接的解决方案，这里记录备查。
+    
+    </summary>
+    
+      <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
+    
+    
+      <category term="blog" scheme="http://conxz.net/tags/blog/"/>
+    
+      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
+    
+  </entry>
   
   <entry>
     <title>添加Google AdSense到Hexo博客</title>
@@ -487,9 +512,9 @@
     
       <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
-      <category term="data sharing" scheme="http://conxz.net/tags/data-sharing/"/>
-    
       <category term="neuroscience" scheme="http://conxz.net/tags/neuroscience/"/>
+    
+      <category term="data sharing" scheme="http://conxz.net/tags/data-sharing/"/>
     
   </entry>
   
@@ -516,9 +541,9 @@
     
       <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
-      <category term="data sharing" scheme="http://conxz.net/tags/data-sharing/"/>
-    
       <category term="neuroscience" scheme="http://conxz.net/tags/neuroscience/"/>
+    
+      <category term="data sharing" scheme="http://conxz.net/tags/data-sharing/"/>
     
   </entry>
   
@@ -541,33 +566,6 @@
     
     
       <category term="hippocampus" scheme="http://conxz.net/tags/hippocampus/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Parcellation display with the same color using freesurfer</title>
-    <link href="http://conxz.net/2017/04/01/parcellation-display-freesurfer/"/>
-    <id>http://conxz.net/2017/04/01/parcellation-display-freesurfer/</id>
-    <published>2017-04-01T11:39:55.000Z</published>
-    <updated>2018-01-23T21:12:30.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Two methods for displaying ROI analysis results with brain parcellation in FreeSurfer. </p><ol><li><p>Solution #1 using R. The R code can be found <a href="https://github.com/Conxz/vis/blob/master/CreateFSLUT.r" target="_blank" rel="noopener">HERE</a>. After running the code, a configration file (like <a href="https://github.com/Conxz/vis/blob/master/lh-Area-ColorLUT.txt" target="_blank" rel="noopener">THIS</a>) can be obtained. Then, by following the instructions at the end of the R code, you can have the display with tksurfer.<br><img src="/images/post_images/vis_fig_r_lateral.png" alt="surf vis 1" title="vis1"></p></li><li><p>Solution #2 using Matlab. The Matlab code can be found <a href="https://github.com/Conxz/vis/blob/master/vis_pre_fs.m" target="_blank" rel="noopener">HERE</a>. Note that it depdends a matlab function fron Freesurfer 6.0. After running the code, a mgh file can be obtained for the visualization with tksurferfv.<br><img src="/images/post_images/vis_fig_m.png" alt="surf vis 2" title="vis2"></p></li></ol><p>Note that:</p><ul><li><p>Both methods are based on a csv file, like <a href="https://github.com/Conxz/vis/blob/master/vis_example.csv" target="_blank" rel="noopener">THIS</a>. </p></li><li><p>Different options for the brain display: inflated/orig/smoothwm/white/pial/sphere</p></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Two methods for displaying ROI analysis results with brain parcellation in FreeSurfer. &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Solution #1 using R. The R code c
-      
-    
-    </summary>
-    
-      <category term="Tools" scheme="http://conxz.net/categories/Tools/"/>
-    
-    
-      <category term="freesurfer" scheme="http://conxz.net/tags/freesurfer/"/>
     
   </entry>
   
