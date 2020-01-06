@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://conxz.net/"/>
-  <updated>2020-01-02T21:05:20.097Z</updated>
+  <updated>2020-01-06T22:01:33.189Z</updated>
   <id>http://conxz.net/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>命令行后台执行</title>
+    <link href="http://conxz.net/2020/01/06/execute-cmdline-in-the-backgroud/"/>
+    <id>http://conxz.net/2020/01/06/execute-cmdline-in-the-backgroud/</id>
+    <published>2020-01-06T21:51:43.000Z</published>
+    <updated>2020-01-06T22:01:33.189Z</updated>
+    
+    <content type="html"><![CDATA[<p>关键词：nohup 后台执行<br>Keywords: nohup background excute stop</p><p>常用的脑影像数据分析和遗传数据分析工具往往采用命令行的方式，用户通过Terminal执行命令行以完成相关数据分析，这种方式可以满足通常情况的需求。在一些特别的情况下，你可能会需要将命令行提交到后台执行，以避免一些意外的情况：</p><ol><li>通常情况下，Terminal和执行的命令是绑定的，即如果在执行程序过程中意外关闭的执行该程序的Terminal，改程序的执行会一起终止。</li><li>通过Terminal访问服务器，在服务器上执行程序时，如果意外出现网络中断，相应的程序也会因此而终止。<a id="more"></a></li></ol><p>Linux中的nohup命令提供了一个很好的解决方案，即将程序提交到后台执行，即使出现上述意外，程序依旧会照常执行。比如这里要执行一个Python程序，通常的方式是采用下面的命令行<br><code>python s1.extract_ts.py</code><br>如果采用这种方式提交，Terminal关闭后，程序执行会被终止。</p><p>通过下面的方式可以采用nohup提交程序到后台执行：<br><code>nohup python s1.extract_ts.py &amp;</code><br>这样执行该命令行后，即便关闭Terminal或远程访问服务器的网络中断，程序执行会照常继续。<br>也可以通过下面的命令将该程序执行过程中的output保存到一个文本文件中<br><code>nohup python s1.extract_ts.py &gt; nohup.log &amp;</code><br>这样，程序执行过程中的output会保存到这个log文件中；而且这个保存是实时的，因此可以通过查看该log文件的内容确定程序运行的到那个阶段，或是否有报错。</p><p>在一些情况下，你可能会发现通过nohup提交的程序可能有问题，需要停掉该程序。可以通过下面的命令，首先查看相应程序的PID，然后将其杀掉。<br><code>ps -ef | grep &quot;s1.extract_ts.py&quot;</code><br><code>kill &lt;PID&gt;</code></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;关键词：nohup 后台执行&lt;br&gt;Keywords: nohup background excute stop&lt;/p&gt;
+&lt;p&gt;常用的脑影像数据分析和遗传数据分析工具往往采用命令行的方式，用户通过Terminal执行命令行以完成相关数据分析，这种方式可以满足通常情况的需求。在一些特别的情况下，你可能会需要将命令行提交到后台执行，以避免一些意外的情况：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;通常情况下，Terminal和执行的命令是绑定的，即如果在执行程序过程中意外关闭的执行该程序的Terminal，改程序的执行会一起终止。&lt;/li&gt;
+&lt;li&gt;通过Terminal访问服务器，在服务器上执行程序时，如果意外出现网络中断，相应的程序也会因此而终止。
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://conxz.net/categories/Tools/"/>
+    
+    
+      <category term="linux" scheme="http://conxz.net/tags/linux/"/>
+    
+      <category term="nohup" scheme="http://conxz.net/tags/nohup/"/>
+    
+      <category term="data science" scheme="http://conxz.net/tags/data-science/"/>
+    
+  </entry>
   
   <entry>
     <title>十年</title>
@@ -533,35 +563,6 @@
       
       
         &lt;p&gt;The idea of Personally Identifiable Brain (PIB) has been in my mind for a long time. This was largely inspired by Poldrack’s MyConnectome
-      
-    
-    </summary>
-    
-      <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
-    
-    
-      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
-    
-      <category term="neuroscience" scheme="http://conxz.net/tags/neuroscience/"/>
-    
-      <category term="data sharing" scheme="http://conxz.net/tags/data-sharing/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Structural and functional MRI brain scans of (young) ME</title>
-    <link href="http://conxz.net/2017/06/20/personally-identifiable-brain/"/>
-    <id>http://conxz.net/2017/06/20/personally-identifiable-brain/</id>
-    <published>2017-06-20T19:35:43.000Z</published>
-    <updated>2018-01-23T21:12:30.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>It has been a long time since I planed to share the imaging data of my own brain. The idea is inspired by Poldrack’s <a href="http://myconnectome.org/wp/" target="_blank" rel="noopener">MyConnectome</a> project. As a neuroscientist, we usually scan our own brains. Although each single dataset is much smaller (compared to MyConnetome), many a little make a mickle. If these datasets are collected and shared, it would be a unique resource for better understanding of human brain, in particular of the neuroscientists’ brain and their academic life (as well as many other individual differences).</p><p>After a few weeks of procrastination, I finally completed <a href="https://doi.org/10.6084/m9.figshare.5131771.v1" target="_blank" rel="noopener">the data sharing of my own brain’s imaging data</a> on FigShare, including structural and functional MRI scans. Here I used a newly-proposed data structure for brain imaging data, that is the <a href="http://bids.neuroimaging.io/" target="_blank" rel="noopener">Brain Imaging Data Structure (BIDS)</a> was used.</p><p><img src="/images/post_images/mybrain.jpg" alt="My brain with several lateralized function terms" title="My Brain"></p><p>Besides Poldrack’s MyConnectome and mine, I found that there is another identifiable brain which is from Chris Gorgolewski. Chris has shared his own brain scans, including T1, T2, T2* and FLAIR data from a 3T scanner. You can download them <a href="https://figshare.com/articles/Set_of_anatomical_MRI_brain_scans_of_a_single_subject/1217504" target="_blank" rel="noopener">here</a>. </p><p>With these, I think it would be interesting to propose a project to collect and share the identifiable brains of neuroscientists. We can term this project as <strong>Personally Identifiable Brains (PIB)</strong>. I will list some potential applications in my mind of the dataset in my next blog. This is just an initial idea, and any suggestion and support would be appreciated for this project.</p><p>Finally, should you find any health-relevant findings, please contact me (<a href="mailto:xiangzhen.kong@outlook.com" target="_blank" rel="noopener">Xiangzhen Kong</a>) before publicly releasing those results.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;It has been a long time since I planed to share the imaging data of my own brain. The idea is inspired by Poldrack’s &lt;a href=&quot;http://myco
       
     
     </summary>
