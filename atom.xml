@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://conxz.net/"/>
-  <updated>2020-01-06T23:26:23.644Z</updated>
+  <updated>2020-01-07T23:22:49.897Z</updated>
   <id>http://conxz.net/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Presentation Learning Day 2</title>
+    <link href="http://conxz.net/2020/01/08/presentation-learning-day-2/"/>
+    <id>http://conxz.net/2020/01/08/presentation-learning-day-2/</id>
+    <published>2020-01-07T23:19:51.000Z</published>
+    <updated>2020-01-07T23:22:49.897Z</updated>
+    
+    <content type="html"><![CDATA[<p>hello and welcome to xxx<br>I am just going to briefly touch upon what this xx will be about. and also I want to mention that xxx<br>so what is this xx, what isn’t this xx<br>I have presented some of these talks to the labs that I work in locally. and there were definitely folks in the audience who did not have xx experience.<br>I think they still got something out of it. they built their understanding.<br>so it is still useful if you’re completely new. but it’s going to be more useful for those of you who’ve been running xxx.<br><a id="more"></a><br>but either way, I will give you a shot and see what you get out of it.<br>I’m not going to start from like the basics in xx textbook necessarily. I am focusing on sort of these aha moments I’ve had along the way as I’ve been working with xx, and trying to figure things out.<br>That’s the stuff I want to share with you because it’s not obvious.<br>so the first thing I want to talk about will be xx<br>if you haven’t heard about it, don’t worry about it. I will explain what it is.<br>if you have, I just want to explain what it is, and why it’s good.<br>then the next section ..<br>I will ask you in the audience for some examples that you might want to share.<br>and at last, I hope to cover .xxx<br>but it turns out that this is  a pretty tricky topic in xxx<br>I’m hoping to walk me a way through that and digest it.<br>so that’s it. it’s really all I have to say.<br>my voice is a little hoarse because I have a cold. but hopefully that will clear up as xx goes.<br>anyway, so let’s get started. </p><p>I’m gonna start with a quick xx review.<br>primer motivation here is just to set up some notation which I can use to build upon for xx.<br>so other than that , the goal of this is just quickly review xx<br>But I am not going to getting into the nitty-gritty.<br>and the most important things I want to take ways from this are xx<br>I will do my best to keep equations at a minimum, but I really do need just a couple to get through this.<br>I will go over them many many time. hopefully the repetition will help.<br>hopefully that will help pull together the entire picture.<br>and quickly I’m getting over a cold so I apologize for my voice. but doing my best hopefully I won’t cough at all.<br>that’s it.<br>the best place for questions about xx is the Facebook group ..<br>I do try to address questions<br>so thanks a lot for your time and have a nice day. </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;hello and welcome to xxx&lt;br&gt;I am just going to briefly touch upon what this xx will be about. and also I want to mention that xxx&lt;br&gt;so what is this xx, what isn’t this xx&lt;br&gt;I have presented some of these talks to the labs that I work in locally. and there were definitely folks in the audience who did not have xx experience.&lt;br&gt;I think they still got something out of it. they built their understanding.&lt;br&gt;so it is still useful if you’re completely new. but it’s going to be more useful for those of you who’ve been running xxx.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
+    
+    
+      <category term="publication" scheme="http://conxz.net/tags/publication/"/>
+    
+      <category term="conference" scheme="http://conxz.net/tags/conference/"/>
+    
+      <category term="learning" scheme="http://conxz.net/tags/learning/"/>
+    
+  </entry>
   
   <entry>
     <title>Presentation Learning Day 1</title>
@@ -539,42 +565,6 @@
       <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
       <category term="p value" scheme="http://conxz.net/tags/p-value/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的第一篇NeuroImage“大事记”</title>
-    <link href="http://conxz.net/2017/07/20/my-1st-neuroimage/"/>
-    <id>http://conxz.net/2017/07/20/my-1st-neuroimage/</id>
-    <published>2017-07-20T11:29:57.000Z</published>
-    <updated>2018-01-23T21:12:30.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>先晒文章信息：<br>Kong, X. Z., Huang, Y., Hao, X., Hu, S., &amp; Liu, J. (2017). Sex-linked association between cortical scene selectivity and navigational ability. NeuroImage, 158, 397–405.</p><p>永久有效<a href="http://www.sciencedirect.com/science/article/pii/S1053811917305992" target="_blank" rel="noopener">文章链接</a>  |  未订阅数据库可访问<a href="https://authors.elsevier.com/a/1VPRn3lc~q-RY8" target="_blank" rel="noopener">公开链接（9月7日前有效）</a></p><p>这篇文章延续了我以往空间能力的研究主题，重点关注空间导航和场景加工活动，以及二者之间关联的性别差异。文章要点如下：</p><ul><li><em>男性自我报告有更好的空间导航能力</em> Males reported better navigational ability than females.</li><li><em>男性在两侧旁海马位置区PPA有更强的场景特异性</em> Males showed stronger cortical scene selectivity in the bilateral PPA.</li><li><em>在男性中，较强的PPA场景特异性与更好的空间导航能力呈现正相关</em> Higher selectivity in the left PPA was related to better navigational ability in males.</li><li><em>在空间导航上，女性和男性可能有着不同的神经基础</em> Females and males possessed different neural correlates of navigation.</li></ul><p><img src="/images/post_images/navigation_sex1.png" alt="空间导航能力的性别差异" title="Navigation Sex"></p><p>接下来是“大事记”。<a id="more"></a>就像我导师在微信群里说的那样，这里我说是“大事记”，并不是说这篇文章“特别出彩”或者NeuroImage这个杂志“特别出挑” ，而是这篇文章确实经历了太长太曲折的审稿过程。仅在NeuroImage一个期刊的审稿过程长达28个月，前前后后历经7个审稿人。我们一步步和审稿人死磕，终于文章接收。</p><h4 id="2014年5月-全国博士生学术年会"><a href="#2014年5月-全国博士生学术年会" class="headerlink" title="2014年5月 全国博士生学术年会"></a>2014年5月 全国博士生学术年会</h4><p>没错，文章的主要结果完成于这次年会之前。学术年会在昆明举办，这是我第一次到这个享“春城”之誉的城市（会议结束顺带去了一趟大理），会上我还做了题为《空间导航能力与场景加工功能激活的性别差异研究》的报告。这次活动算是第一次公开这篇文章的主要结果。</p><h4 id="2014年12月-投稿到Cerebral-Cortex"><a href="#2014年12月-投稿到Cerebral-Cortex" class="headerlink" title="2014年12月 投稿到Cerebral Cortex"></a>2014年12月 投稿到Cerebral Cortex</h4><p>经过一段时间的修改和准备，在2014年底投稿到Cerebral Cortex。这篇文章的主要结果相对朴实，所以期初定位就在Cerebral Cortex以下的几个期刊。12月17日投出，经过了2个多月的审稿过程，于次年2月26日收到3个审稿人的审稿意见，当然意见有好有坏，编辑决定拒稿。</p><h4 id="2015年3月投稿到NeuroImage"><a href="#2015年3月投稿到NeuroImage" class="headerlink" title="2015年3月投稿到NeuroImage"></a>2015年3月投稿到NeuroImage</h4><p>参考上一轮的审稿意见，我们对文章做了一些修改，之后投稿到NeuroImage，开始了漫长的审稿和回复过程。两个月后，5月初收到审稿意见，编辑用了两个月的时间，只拿到了一个审稿人的意见。意见比较中肯，编辑给了修改机会。</p><h4 id="2015年5月修回"><a href="#2015年5月修回" class="headerlink" title="2015年5月修回"></a>2015年5月修回</h4><p>我们根据审稿人的意见，修改文章，并于5月15日完成了回复。然后又是漫长的等待，到8月1日收到审稿意见。第一个审稿人会回复非常满意，同意发表；然而，新加的两个审稿人却提了新的问题，其中一个意见很正面，另一个就是常说的审稿人3了，意见密密麻麻写了十几段。编辑决定给大修，并提醒最好能够一次满足审稿人的意见，否则。。</p><h4 id="2015年10月第二次修回"><a href="#2015年10月第二次修回" class="headerlink" title="2015年10月第二次修回"></a>2015年10月第二次修回</h4><p>由于审稿人3的大量问题和编辑的善意提醒，我们用了很长时间修改文章并回复。最后在10月中旬提交了修改后的文章和回复，正文20页，回复32页。然后于12月初收到审稿意见，考虑到两名审稿人又提了几条新的意见，编辑决定拒后重投（虽然相对上次的意见，这次意见容易回复很多）。</p><h4 id="2016年2月第三次修回"><a href="#2016年2月第三次修回" class="headerlink" title="2016年2月第三次修回"></a>2016年2月第三次修回</h4><p>次年2月中旬将修改后的文章，从上次回复中挑出来的10页补充材料和回复重新提交。并于5月初收到审稿意见，这次编辑找到了4个审稿人，而且似乎是全新的，其中两个审稿人基本没有问题，另外两个审稿人则提了不少问题。编辑决定给了修改机会。</p><h4 id="2017年5月22日第四次修回"><a href="#2017年5月22日第四次修回" class="headerlink" title="2017年5月22日第四次修回"></a>2017年5月22日第四次修回</h4><p>再次根据审稿人的意见完成文章修改和回复，由于中间赶上毕业季和来欧洲，这次修改经历了漫长的时间。终于在次年的5月完成了提交。7月初收到回复，审稿人除了几个细节有问题，其他很满意。编辑决定给小修。</p><h4 id="2017年7月中旬第五次修回"><a href="#2017年7月中旬第五次修回" class="headerlink" title="2017年7月中旬第五次修回"></a>2017年7月中旬第五次修回</h4><p>快速修改后（将部分审稿过程中第一个审稿人要求补充的分析从正文中删除，放在了补充材料中），于7月13日完成提交，编辑收稿收，于7月14日接收。</p><p>想到自己和周围的人在NeuroImage的遭遇，投稿期间几乎对这个杂志绝望，感慨“此生可能和NeuroImage无缘”。最终坚持下来，感谢导师的帮助和鼓励，也感谢自己，感谢编辑和审稿人孜孜不倦地帮助提高文章质量。投文章如打怪升级，我这次可能碰到了个大BOSS；这种经历让我收获很多，不过还是希望以后能更顺利：）</p><p>最后是一张趣图。<br><img src="/images/post_images/navigation_sex2.png" alt="空间导航能力性别差异的进化来源" title="Navigation Sex"></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;先晒文章信息：&lt;br&gt;Kong, X. Z., Huang, Y., Hao, X., Hu, S., &amp;amp; Liu, J. (2017). Sex-linked association between cortical scene selectivity and navigational ability. NeuroImage, 158, 397–405.&lt;/p&gt;
-&lt;p&gt;永久有效&lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S1053811917305992&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;文章链接&lt;/a&gt;  |  未订阅数据库可访问&lt;a href=&quot;https://authors.elsevier.com/a/1VPRn3lc~q-RY8&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;公开链接（9月7日前有效）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;这篇文章延续了我以往空间能力的研究主题，重点关注空间导航和场景加工活动，以及二者之间关联的性别差异。文章要点如下：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;男性自我报告有更好的空间导航能力&lt;/em&gt; Males reported better navigational ability than females.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;男性在两侧旁海马位置区PPA有更强的场景特异性&lt;/em&gt; Males showed stronger cortical scene selectivity in the bilateral PPA.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;在男性中，较强的PPA场景特异性与更好的空间导航能力呈现正相关&lt;/em&gt; Higher selectivity in the left PPA was related to better navigational ability in males.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;在空间导航上，女性和男性可能有着不同的神经基础&lt;/em&gt; Females and males possessed different neural correlates of navigation.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;/images/post_images/navigation_sex1.png&quot; alt=&quot;空间导航能力的性别差异&quot; title=&quot;Navigation Sex&quot;&gt;&lt;/p&gt;
-&lt;p&gt;接下来是“大事记”。
-    
-    </summary>
-    
-      <category term="BrainResearch" scheme="http://conxz.net/categories/BrainResearch/"/>
-    
-    
-      <category term="paper" scheme="http://conxz.net/tags/paper/"/>
-    
-      <category term="sex" scheme="http://conxz.net/tags/sex/"/>
-    
-      <category term="navigation" scheme="http://conxz.net/tags/navigation/"/>
     
   </entry>
   
