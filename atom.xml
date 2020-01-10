@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://conxz.net/"/>
-  <updated>2020-01-09T22:51:48.637Z</updated>
+  <updated>2020-01-10T23:31:26.536Z</updated>
   <id>http://conxz.net/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>pytorch入门例子3：模型训练和测试</title>
+    <link href="http://conxz.net/2020/01/10/pytorch-example-3/"/>
+    <id>http://conxz.net/2020/01/10/pytorch-example-3/</id>
+    <published>2020-01-10T22:43:50.000Z</published>
+    <updated>2020-01-10T23:31:26.536Z</updated>
+    
+    <content type="html"><![CDATA[<p>CIFAR10训练集50,000<br>CIFAR10测试集10,000<br>图片+标签</p><p>像下面的neural network，不用GPU也可以很好地完成训练。这个模型和<a href="http://conxz.net/2020/01/09/pytorch-example-2/">之前的例子</a>类似。<a id="more"></a></p><pre>import torch.nn as nnimport torch.nn.functional as Fclass Net(nn.Module):    def __init__(self):        super(Net, self).__init__()        self.conv1 = nn.Conv2d(3, 6, 5)        self.pool = nn.MaxPool2d(2, 2)        self.conv2 = nn.Conv2d(6, 16, 5)        self.fc1 = nn.Linear(16 * 5 * 5, 120)        self.fc2 = nn.Linear(120, 84)        self.fc3 = nn.Linear(84, 10)    def forward(self, x):        x = self.pool(F.relu(self.conv1(x)))        x = self.pool(F.relu(self.conv2(x)))        x = x.view(-1, 16 * 5 * 5)        x = F.relu(self.fc1(x))        x = F.relu(self.fc2(x))        x = self.fc3(x)        return xnet = Net()</pre><p>完成训练之后，可以将模型状态保存，以备下一次直接使用。</p><pre>PATH = './cifar_net.pth'torch.save(net.state_dict(), PATH)</pre><p>读取之前保存的模型状态，并测试新数据。</p><pre>net = Net()net.load_state_dict(torch.load(PATH))outputs = net(new_images)_, predicted = torch.max(outputs, 1) # 取最大值对应的label</pre><p>Source<br><a href="https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html" target="_blank" rel="noopener">DEEP LEARNING WITH PYTORCH: A 60 MINUTE BLITZ</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;CIFAR10训练集50,000&lt;br&gt;CIFAR10测试集10,000&lt;br&gt;图片+标签&lt;/p&gt;
+&lt;p&gt;像下面的neural network，不用GPU也可以很好地完成训练。这个模型和&lt;a href=&quot;http://conxz.net/2020/01/09/pytorch-example-2/&quot;&gt;之前的例子&lt;/a&gt;类似。
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://conxz.net/categories/Tools/"/>
+    
+    
+      <category term="data science" scheme="http://conxz.net/tags/data-science/"/>
+    
+      <category term="pytorch" scheme="http://conxz.net/tags/pytorch/"/>
+    
+      <category term="machine learning" scheme="http://conxz.net/tags/machine-learning/"/>
+    
+  </entry>
   
   <entry>
     <title>pytorch入门例子2</title>
@@ -571,33 +598,6 @@ N, D_in, H, D_out = 64, 1000, 100, 10
     
     
       <category term="brain asymmetry" scheme="http://conxz.net/tags/brain-asymmetry/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>p值:这个锅，我不背!</title>
-    <link href="http://conxz.net/2017/10/01/redefine-significance-3/"/>
-    <id>http://conxz.net/2017/10/01/redefine-significance-3/</id>
-    <published>2017-10-01T05:13:37.000Z</published>
-    <updated>2018-03-08T22:40:45.278Z</updated>
-    
-    <content type="html"><![CDATA[<p>在关于重新定义显著性阈值的文章（Benjamin_2017_Redefine statistical significance）在线发表后，关于p值争论就没有停息，其中有支持，有反对，更有人提出了包括舍弃显著性阈值，甚至p值的新方案。这些争论很多来自方法学领域的领军人物，各方言辞凿凿，其中的争议可见一斑，短期内也不可能有个定论。下面是一些笔者自己关于p值与可重复性问题的random想法。</p><p><img src="/images/post_images/sig.jpg" alt="显著性" title="显著性"></p><p>笔者认为，将显著性阈值本身是否合理，与研究结果的可重复性问题联系起来，本身就值得思考。这一联系，本身反映了一些研究者自身对p值的误解，以及这种误解的根深蒂固。实际上，p值反映的是，在零假设为真的情况下，出现当前结果（或更极端结果）的可能性；其与研究结果的可重复性（已发表的结果可重复的概率）并没有直接联系。更具体地，前者是Prob(p&lt;0.05 | H0为真)，而后者是Prob(H0为真| p&lt;0.05)，二者并非一个东西。如果期望采用0.05的显著性阈值，达到发表结果95%的可重复性的想法，本身就是有错误的。</p><p>更重要的是，理论上，显著性阈值设在0.05时，可以很好的将假阳性率控制在5%；为了更直观地呈现这一点，这里有个<a href="http://conxz.net/2017/09/21/redefine-significance/">模拟数据的结果</a>。也就是说，在不存在数据操纵等不科学行为的前提下，显著性阈值可以很好的控制错误拒绝零假设的概率。</p><p>那么，现在引起众多争议的可重复性问题是如何产生的呢？</p><p>显然，如上面所示，显著性阈值本身可以很好的控制假阳性，其并非问题的根本原因。</p><p>该问题更直接的原因是<strong>p hacking</strong>和<strong>power failure</strong>。</p><p>其中，p hacking与现存的期刊倾向于发表显著结果的现状（publication bias）存在密切关联，是指一些研究者在数据采集和分析过程中，采用各种各样的手段，以试图将p值控制在显著性阈值以下；或从众多结果中，挑选显著的结果用于报告等；这一操作本身将引起估计的效应量夸大，甚至出现假阳性结果，使得错误拒绝零假设的可能性明显增加。</p><p>而power failure是指，在实际研究中，统计效力（statistical power）不够，即实际采用的样本量并不能检测感兴趣的效应，从而导致大量效应被认为是不存在的；这一问题直接导致，研究者与很多实际存在的效应只能擦肩而过，从而导致已发表的结果中，这些实际存在的效应的确实。</p><p>如此，一多（p hacking导致的假阳性结果增加）一少（power failure导致的实际存在的效应得到检测到的数量减少），从而引发已发表的研究结果的可重复性问题。</p><p>至于降低显著性阈值的策略是否能解决已发表文章的可重复性问题，这本身还是一个问题。比如，显著性阈值减低，确实可以使得假阳性结果会减少，但是，能够成功检测到的效应的数量也会减少，最终得以发表的结果的可重复性将如何变化，要取决于二者之间的权衡。</p><p>说到底，可重复性问题的根源在研究者的不合理行为：说一下极端情况，如果完全没有p hacking，同时每一个研究都有足够的统计power，那么，即使显著性阈值取0.05，也可以很好的控制研究发现的可重复性。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;在关于重新定义显著性阈值的文章（Benjamin_2017_Redefine statistical significance）在线发表后，关于p值争论就没有停息，其中有支持，有反对，更有人提出了包括舍弃显著性阈值，甚至p值的新方案。这些争论很多来自方法学领域的领军人物，各
-      
-    
-    </summary>
-    
-      <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
-    
-    
-      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
-    
-      <category term="p value" scheme="http://conxz.net/tags/p-value/"/>
     
   </entry>
   
