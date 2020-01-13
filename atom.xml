@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://conxz.net/"/>
-  <updated>2020-01-10T23:31:26.536Z</updated>
+  <updated>2020-01-13T23:37:53.718Z</updated>
   <id>http://conxz.net/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Presentation Learning Day 3</title>
+    <link href="http://conxz.net/2020/01/14/Presentation-Learning-Day-3/"/>
+    <id>http://conxz.net/2020/01/14/Presentation-Learning-Day-3/</id>
+    <published>2020-01-13T23:31:52.000Z</published>
+    <updated>2020-01-13T23:37:53.718Z</updated>
+    
+    <content type="html"><![CDATA[<p>Everybody<br>Welcome to xx. And welcome to the xx<br>My name is xx xx. I am the xxx of the organization of xx</p><p>xx is a really amazing place to host the meeting. and it’s really quite suitable.<br>xxx played a major role in early medicine and neuroscience, in many ways,  </p><p>it’s also hard to believe that it’s been xx years since the first xxx conference in xx.<br>at that time, it really was just a conference. In the second meeting in xxx, it was decided to become a organization.<br>Just in the last year, we decided to change to a society.<br>so really it has been serve as an evolution over time.<br>I attended the boston meeting, but I could go to xx cos I was a poor graduate student. so wasn’t able to afford it. <a id="more"></a></p><p>but just to give you a sense what was happening xx years ago.<br>xx had just broken xx; xx was just over xx; xxx was released; jave script was first intraduced we are still using; xxx was first announced. xx has just started.<br>in many ways, I cann’t believe that it’s been that long, but that does not seem like that it was that long. </p><p>I encourage you to look at some of the blocks and some activities about what has evolved throughout the xx years in this particular meeting.<br>we have a really wonderful program I hope you could agree.<br>some of our keynotes are xxx</p><p>Thanks to the program committee chaired by xx who work very hard to put these together.<br>Thanks to the xx for keeping track for everything, and doing so much.<br>Thanks to you for your attendance.<br>Without further to do, I will introduce xx who will talk about xxx </p><p>Reference<br><a href="https://www.pathlms.com/ohbm/courses/12238/sections/15844/video_presentations/137861" target="_blank" rel="noopener">https://www.pathlms.com/ohbm/courses/12238/sections/15844/video_presentations/137861</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Everybody&lt;br&gt;Welcome to xx. And welcome to the xx&lt;br&gt;My name is xx xx. I am the xxx of the organization of xx&lt;/p&gt;
+&lt;p&gt;xx is a really amazing place to host the meeting. and it’s really quite suitable.&lt;br&gt;xxx played a major role in early medicine and neuroscience, in many ways,  &lt;/p&gt;
+&lt;p&gt;it’s also hard to believe that it’s been xx years since the first xxx conference in xx.&lt;br&gt;at that time, it really was just a conference. In the second meeting in xxx, it was decided to become a organization.&lt;br&gt;Just in the last year, we decided to change to a society.&lt;br&gt;so really it has been serve as an evolution over time.&lt;br&gt;I attended the boston meeting, but I could go to xx cos I was a poor graduate student. so wasn’t able to afford it.
+    
+    </summary>
+    
+      <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
+    
+    
+      <category term="conference" scheme="http://conxz.net/tags/conference/"/>
+    
+      <category term="learning" scheme="http://conxz.net/tags/learning/"/>
+    
+      <category term="presentation" scheme="http://conxz.net/tags/presentation/"/>
+    
+  </entry>
   
   <entry>
     <title>pytorch入门例子3：模型训练和测试</title>
@@ -136,7 +164,7 @@ N, D_in, H, D_out = 64, 1000, 100, 10
     <link href="http://conxz.net/2020/01/08/presentation-learning-day-2/"/>
     <id>http://conxz.net/2020/01/08/presentation-learning-day-2/</id>
     <published>2020-01-07T23:19:51.000Z</published>
-    <updated>2020-01-07T23:22:49.897Z</updated>
+    <updated>2020-01-13T23:37:29.367Z</updated>
     
     <content type="html"><![CDATA[<p>hello and welcome to xxx<br>I am just going to briefly touch upon what this xx will be about. and also I want to mention that xxx<br>so what is this xx, what isn’t this xx<br>I have presented some of these talks to the labs that I work in locally. and there were definitely folks in the audience who did not have xx experience.<br>I think they still got something out of it. they built their understanding.<br>so it is still useful if you’re completely new. but it’s going to be more useful for those of you who’ve been running xxx.<br><a id="more"></a><br>but either way, I will give you a shot and see what you get out of it.<br>I’m not going to start from like the basics in xx textbook necessarily. I am focusing on sort of these aha moments I’ve had along the way as I’ve been working with xx, and trying to figure things out.<br>That’s the stuff I want to share with you because it’s not obvious.<br>so the first thing I want to talk about will be xx<br>if you haven’t heard about it, don’t worry about it. I will explain what it is.<br>if you have, I just want to explain what it is, and why it’s good.<br>then the next section ..<br>I will ask you in the audience for some examples that you might want to share.<br>and at last, I hope to cover .xxx<br>but it turns out that this is  a pretty tricky topic in xxx<br>I’m hoping to walk me a way through that and digest it.<br>so that’s it. it’s really all I have to say.<br>my voice is a little hoarse because I have a cold. but hopefully that will clear up as xx goes.<br>anyway, so let’s get started. </p><p>I’m gonna start with a quick xx review.<br>primer motivation here is just to set up some notation which I can use to build upon for xx.<br>so other than that , the goal of this is just quickly review xx<br>But I am not going to getting into the nitty-gritty.<br>and the most important things I want to take ways from this are xx<br>I will do my best to keep equations at a minimum, but I really do need just a couple to get through this.<br>I will go over them many many time. hopefully the repetition will help.<br>hopefully that will help pull together the entire picture.<br>and quickly I’m getting over a cold so I apologize for my voice. but doing my best hopefully I won’t cough at all.<br>that’s it.<br>the best place for questions about xx is the Facebook group ..<br>I do try to address questions<br>so thanks a lot for your time and have a nice day. </p>]]></content>
     
@@ -149,11 +177,11 @@ N, D_in, H, D_out = 64, 1000, 100, 10
       <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
     
     
-      <category term="publication" scheme="http://conxz.net/tags/publication/"/>
-    
       <category term="conference" scheme="http://conxz.net/tags/conference/"/>
     
       <category term="learning" scheme="http://conxz.net/tags/learning/"/>
+    
+      <category term="presentation" scheme="http://conxz.net/tags/presentation/"/>
     
   </entry>
   
@@ -162,7 +190,7 @@ N, D_in, H, D_out = 64, 1000, 100, 10
     <link href="http://conxz.net/2020/01/07/presentation-learning-day-1/"/>
     <id>http://conxz.net/2020/01/07/presentation-learning-day-1/</id>
     <published>2020-01-06T23:23:46.000Z</published>
-    <updated>2020-01-06T23:26:23.644Z</updated>
+    <updated>2020-01-13T23:37:44.151Z</updated>
     
     <content type="html"><![CDATA[<p>My final words is xxx<br>The future is very exciting. It takes all excitement and passion to explore the future.<br>I wish the future forum great success.<br>… beyond what we can see, what we can feel. </p><p>And this is the talk he’s going to give. And I would like to invite you to welcome xxx. </p><p>Thanks xx for that very nice and warm introduction.<br>Actually I feel quite insecure standing here facing the audience because this is probably the first time I am giving a scientific talk in four months.<br>This is unusual you know for a scientist.<br>I think this might be the first time in my life to give such a talk after this long period of silence in science or in presentation.<br>I am hoping by spending next ten years in science I can do something that I truelly will feel proud of my life in science.<br>So for the next 40 mins or so I’m going to tell a story that began to unfold xx<br>As shown here in this slide, is a diagram I took from the PNAS paper published from xxx.<br>we all know the central dogma or information flow in living or living organisms on earth very well.<br>it flows from genetic materials DNA to RNA then eventually to life executing proteins.<br>DNA –Transcription—&gt; RNA –Translation—&gt; Protein</p><p><dna replication=""><br>For transcription and translation, both processes are quite ordered. you can even call it one dimensional search.<br>that’s of course not one-dimensional per se. But you can imagine that is the case.<br>because in the first step transcription what you need is to have genomic DNA transcribed to pre-mRNA in a one-to-one relationship. One DNA base to one RNA base.<br>that is executed by RNA polymerase.<br>In the third step, protein translation what you need to do is for every three bases of mRNA, triplet codon, you have one amino acid specified. So again it is in a way one-dimensional information flow. three to one.<br>so before I describe xx, I’d like to call your attention to the xxx.<br>So I know I’m spending a lot of time on introduction. but I think the value of my talk is really embedded in introduction.<br>as you will see structure in the ends explains just my introduction.<br>So the next slide, this slide, describes essentially all that I want to tell this audience. so bear with me for a couple of minutes.<br>the upper left corner describes again xxx</dna></p>]]></content>
     
@@ -178,11 +206,11 @@ N, D_in, H, D_out = 64, 1000, 100, 10
       <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
     
     
-      <category term="publication" scheme="http://conxz.net/tags/publication/"/>
-    
       <category term="conference" scheme="http://conxz.net/tags/conference/"/>
     
       <category term="learning" scheme="http://conxz.net/tags/learning/"/>
+    
+      <category term="presentation" scheme="http://conxz.net/tags/presentation/"/>
     
   </entry>
   
@@ -347,9 +375,9 @@ N, D_in, H, D_out = 64, 1000, 100, 10
       <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
     
     
-      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
-    
       <category term="publication" scheme="http://conxz.net/tags/publication/"/>
+    
+      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
   </entry>
   
@@ -400,9 +428,9 @@ N, D_in, H, D_out = 64, 1000, 100, 10
       <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
     
     
-      <category term="paper" scheme="http://conxz.net/tags/paper/"/>
-    
       <category term="publication" scheme="http://conxz.net/tags/publication/"/>
+    
+      <category term="paper" scheme="http://conxz.net/tags/paper/"/>
     
       <category term="neuroscience" scheme="http://conxz.net/tags/neuroscience/"/>
     
@@ -486,11 +514,11 @@ N, D_in, H, D_out = 64, 1000, 100, 10
       <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
     
     
+      <category term="publication" scheme="http://conxz.net/tags/publication/"/>
+    
       <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
       <category term="paper" scheme="http://conxz.net/tags/paper/"/>
-    
-      <category term="publication" scheme="http://conxz.net/tags/publication/"/>
     
   </entry>
   
@@ -515,9 +543,9 @@ N, D_in, H, D_out = 64, 1000, 100, 10
       <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
     
     
-      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
-    
       <category term="conference" scheme="http://conxz.net/tags/conference/"/>
+    
+      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
   </entry>
   
@@ -570,34 +598,9 @@ N, D_in, H, D_out = 64, 1000, 100, 10
       <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
     
     
-      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
-    
       <category term="publication" scheme="http://conxz.net/tags/publication/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Look Back：颞平面不对称性 Planum Temporale Asymmetry</title>
-    <link href="http://conxz.net/2017/10/22/planum-temporale-asymmetry/"/>
-    <id>http://conxz.net/2017/10/22/planum-temporale-asymmetry/</id>
-    <published>2017-10-22T05:13:55.000Z</published>
-    <updated>2018-01-24T06:59:51.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>颞平面（planum temporale）是位于颞上回（superior temporal gyrus）后部背侧皮层的一个三角形区域，其左侧脑区与经典的语言功能区Wernicke’s area存在一定的重合。一直以来，颞平面被认为是人脑皮层中结构偏侧化最明显的脑区。同时，由于广泛存在的言语和语言网络的左偏侧化，颞平面的偏侧化更被研究者与人类独特的语言能力相关联。</p><p>关于颞平面偏侧化的早起实证研究可以追溯到Geschwind和Levitsky于1968年发表在Science上的一篇短文（甚至更早）。该研究首次基于多达100个成人脑postmortem样本，揭示了颞平面在脑结构上的不对称性。具体而言，研究者首先基于脑的地标Landmark信息手动识别出每个脑的颞平面边界（如图）；统计发现，在65%的样本中，左侧颞平面大于右侧；而右侧颞平面大于左侧的只占11%。此外，左侧颞平面平均比右侧长约1/3。</p><p><img src="/images/post_images/tp_asym.png" alt="颞平面不对称性" title="颞平面不对称性"></p><p>最后，作者提到，在类人猿Anthropoid apes相应的脑区，研究者并未发现这一偏侧化。这一对比表明，颞平面偏侧化的出现，可能与人类进化，以及语言的产生存在密切关联，同时，颞平面偏侧化可能受到一些特定基因的调控。</p><p>参考文献<br>Geschwind, N., &amp; Levitsky, W. (1968). Human brain: left-right asymmetries in temporal speech region. Science, 161(3837), 186-187.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;颞平面（planum temporale）是位于颞上回（superior temporal gyrus）后部背侧皮层的一个三角形区域，其左侧脑区与经典的语言功能区Wernicke’s area存在一定的重合。一直以来，颞平面被认为是人脑皮层中结构偏侧化最明显的脑区。同时，由
-      
-    
-    </summary>
-    
-      <category term="BrainResearch" scheme="http://conxz.net/categories/BrainResearch/"/>
-    
-    
-      <category term="brain asymmetry" scheme="http://conxz.net/tags/brain-asymmetry/"/>
+      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
   </entry>
   
