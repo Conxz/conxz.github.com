@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://conxz.net/"/>
-  <updated>2020-01-13T23:37:53.718Z</updated>
+  <updated>2020-01-27T19:32:25.965Z</updated>
   <id>http://conxz.net/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>替换文本数据中的Tab为空格</title>
+    <link href="http://conxz.net/2020/01/27/tab2space/"/>
+    <id>http://conxz.net/2020/01/27/tab2space/</id>
+    <published>2020-01-27T19:18:34.000Z</published>
+    <updated>2020-01-27T19:32:25.965Z</updated>
+    
+    <content type="html"><![CDATA[<p>存储数据的文本文件中常用空格、Tab、逗号或分号等作为分隔符。一些常用的数据分析工具可能仅接受这些分隔符中的一种，这时便需要将其他分隔符的数据转换为相应工具接受的数据格式。类似的数据准备工作也是实际数据分析工作中相当耗精力的部分。<br>下面是针对Tab转空格问题的两个方便的解决方案。</p><ul><li>方法1. sed是常用的方式，可以灵活指定需要替换的内容和目标内容。<br><code>sed -i “s/\t/    /g” filename</code></li><li>方法2. expand提供了一个方便的替换Tab为空格的工具。<br><code>expand -t 1 filename</code></li></ul><p><code>Usage: expand [OPTION]… [FILE]…<br>Convert tabs in each FILE to spaces, writing to standard output.<br>With no FILE, or when FILE is -, read standard input.<br>Mandatory arguments to long options are mandatory for short options too.<br>  -i, –initial       do not convert tabs after non blanks<br>  -t, –tabs=NUMBER   have tabs NUMBER characters apart, not 8<br>  -t, –tabs=LIST     use comma separated list of explicit tab positions<br>      –help     display this help and exit<br>      –version  output version information and exit<br></code></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;存储数据的文本文件中常用空格、Tab、逗号或分号等作为分隔符。一些常用的数据分析工具可能仅接受这些分隔符中的一种，这时便需要将其他分隔符的数据转换为相应工具接受的数据格式。类似的数据准备工作也是实际数据分析工作中相当耗精力的部分。&lt;br&gt;下面是针对Tab转空格问题的两个方便
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://conxz.net/categories/Tools/"/>
+    
+    
+      <category term="data science" scheme="http://conxz.net/tags/data-science/"/>
+    
+      <category term="linux" scheme="http://conxz.net/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>Presentation Learning Day 3</title>
@@ -38,9 +65,9 @@
     
       <category term="conference" scheme="http://conxz.net/tags/conference/"/>
     
-      <category term="learning" scheme="http://conxz.net/tags/learning/"/>
-    
       <category term="presentation" scheme="http://conxz.net/tags/presentation/"/>
+    
+      <category term="learning" scheme="http://conxz.net/tags/learning/"/>
     
   </entry>
   
@@ -179,9 +206,9 @@ N, D_in, H, D_out = 64, 1000, 100, 10
     
       <category term="conference" scheme="http://conxz.net/tags/conference/"/>
     
-      <category term="learning" scheme="http://conxz.net/tags/learning/"/>
-    
       <category term="presentation" scheme="http://conxz.net/tags/presentation/"/>
+    
+      <category term="learning" scheme="http://conxz.net/tags/learning/"/>
     
   </entry>
   
@@ -208,9 +235,9 @@ N, D_in, H, D_out = 64, 1000, 100, 10
     
       <category term="conference" scheme="http://conxz.net/tags/conference/"/>
     
-      <category term="learning" scheme="http://conxz.net/tags/learning/"/>
-    
       <category term="presentation" scheme="http://conxz.net/tags/presentation/"/>
+    
+      <category term="learning" scheme="http://conxz.net/tags/learning/"/>
     
   </entry>
   
@@ -375,9 +402,9 @@ N, D_in, H, D_out = 64, 1000, 100, 10
       <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
     
     
-      <category term="publication" scheme="http://conxz.net/tags/publication/"/>
-    
       <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
+    
+      <category term="publication" scheme="http://conxz.net/tags/publication/"/>
     
   </entry>
   
@@ -401,9 +428,9 @@ N, D_in, H, D_out = 64, 1000, 100, 10
     
       <category term="R" scheme="http://conxz.net/tags/R/"/>
     
-      <category term="data science" scheme="http://conxz.net/tags/data-science/"/>
-    
       <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
+    
+      <category term="data science" scheme="http://conxz.net/tags/data-science/"/>
     
       <category term="shiny app" scheme="http://conxz.net/tags/shiny-app/"/>
     
@@ -428,9 +455,9 @@ N, D_in, H, D_out = 64, 1000, 100, 10
       <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
     
     
-      <category term="publication" scheme="http://conxz.net/tags/publication/"/>
-    
       <category term="paper" scheme="http://conxz.net/tags/paper/"/>
+    
+      <category term="publication" scheme="http://conxz.net/tags/publication/"/>
     
       <category term="neuroscience" scheme="http://conxz.net/tags/neuroscience/"/>
     
@@ -514,11 +541,11 @@ N, D_in, H, D_out = 64, 1000, 100, 10
       <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
     
     
-      <category term="publication" scheme="http://conxz.net/tags/publication/"/>
-    
       <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
       <category term="paper" scheme="http://conxz.net/tags/paper/"/>
+    
+      <category term="publication" scheme="http://conxz.net/tags/publication/"/>
     
   </entry>
   
@@ -574,33 +601,6 @@ N, D_in, H, D_out = 64, 1000, 100, 10
       <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
       <category term="data sharing" scheme="http://conxz.net/tags/data-sharing/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>脑科学相关SCI Top期刊_2017</title>
-    <link href="http://conxz.net/2017/11/08/scitop/"/>
-    <id>http://conxz.net/2017/11/08/scitop/</id>
-    <published>2017-11-08T06:14:11.000Z</published>
-    <updated>2018-03-08T22:41:15.364Z</updated>
-    
-    <content type="html"><![CDATA[<p>在学术成果评价中，经常会提及SCI Top期刊。SCI Top是中国科学院文献情报中心发布的中科院期刊分区中的一些排名靠前的期刊，紧随其后的期刊一般标签为SCI2，SCI3和SCI4区期刊。所谓SCI Top实际上是包括了SCI1区的期刊和部分SCI2区的期刊，其中SCI1区大致定义为领域排名前5%的期刊。由于一些领域期刊数量有限，导致SCI1区期刊屈指可数，导致SCI1区在实际的学术成果评价中可用性不大；可能是出于这一原因，中科院期刊分区单独定义了SCI Top期刊，以涵盖更多领域认可的期刊。</p><p><img src="/images/post_images/scitop.jpg" alt="SCI Top 期刊" title="SCI Top 期刊"></p><p>近期2016年版（2017最新版）中科院期刊分区正式发布，笔者注意到SCI Top期刊列表变化有些大，新加了一些期刊。下面是查询到的常见的脑科学（神经科学、认知神经科学和神经影像，以及一些高影响的综合期刊）相关的SCI Top期刊列表（欢迎在下方评论中补充）。</p><h3 id="期刊名称-影响因子-Top期刊"><a href="#期刊名称-影响因子-Top期刊" class="headerlink" title="期刊名称 影响因子 Top期刊"></a>期刊名称 影响因子 Top期刊</h3><p>Nature 40.137 是<br>Science 37.205 是</p><p>Nature Neuroscience 17.839 是<br>Neuron 14.024 是</p><p>Nature Communications 12.124 是<br>PNAS 9.661 是<br>Current Biology 8.851 是<br>Brain 10.292 是<br>PLOS Biology 9.797 是</p><p>Cerebral Cortex 6.559 是<br>eLife 7.725 是<br>Journal of Neuroscience 5.988 是</p><p>NeuroImage 5.835 是<br>Human Brain Mapping 4.530 是<br>Brain Structure &amp; Function 4.698 是<br>Cortex 4.279 是</p><p>Nature Review Neuroscience 28.880 是<br>Trends in Cognitive Science 15.402 是<br>Behavioral and Brain Science 14.200 是<br>Trends in Neurosciences 11.124 是<br>Neuroscience &amp; Biobehavioral Reviews 8.299 是<br>Neuroscientists 7.391 是</p><p>JAMA Psychiatry 15.307 是<br>Molecular Psychiatry 13.204 是<br>Biological Psychiatry 11.412 是<br>Lancet Psychiatry 11.588 是<br>Molecular Neurodegeneration 6.780 是<br>Neuropsychopharmacology 6.403 是</p><p>National Science Review 8.843 是<br>Annual Review of Neuroscience 15.630 是<br>Progress in Neurobiology 13.217 是</p><p>Current Opinion in Neurobiology 6.133 是<br>PLoS Genetics 6.100 是<br>Neuropharmacology 5.012 是</p><p>Annual Review of Psychology 19.950 是<br>Psychological Bulletin 16.793 是<br>Annual Review of Clinical Psychology 12.136 是<br>Psychological Review 7.638 是</p><p>Diabetes Care 11.857 是<br>Stroke 6.032 是<br>Pain 5.445 是<br>Sleep Medicine Reviews 8.958 是</p><p>此外，Psychological Science是很好的期刊，影响因子5.667，由于只属SSCI期刊，并不在中科院分区范围。</p><p>数据来源：<a href="http://www.letpub.com.cn/index.php?page=journalapp" target="_blank" rel="noopener">http://www.letpub.com.cn/index.php?page=journalapp</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;在学术成果评价中，经常会提及SCI Top期刊。SCI Top是中国科学院文献情报中心发布的中科院期刊分区中的一些排名靠前的期刊，紧随其后的期刊一般标签为SCI2，SCI3和SCI4区期刊。所谓SCI Top实际上是包括了SCI1区的期刊和部分SCI2区的期刊，其中SCI1
-      
-    
-    </summary>
-    
-      <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
-    
-    
-      <category term="publication" scheme="http://conxz.net/tags/publication/"/>
-    
-      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
   </entry>
   
