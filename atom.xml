@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://conxz.net/"/>
-  <updated>2020-01-31T23:17:03.106Z</updated>
+  <updated>2020-02-25T22:43:33.858Z</updated>
   <id>http://conxz.net/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>空间导航脑网络和S100B基因</title>
+    <link href="http://conxz.net/2020/02/25/spatial-navigation-network-s100b/"/>
+    <id>http://conxz.net/2020/02/25/spatial-navigation-network-s100b/</id>
+    <published>2020-02-25T22:25:39.000Z</published>
+    <updated>2020-02-25T22:43:33.858Z</updated>
+    
+    <content type="html"><![CDATA[<p>工作原因，最近需要把两篇以前发表的文章的摘要翻译为中文，顺手贴过来一份。这两篇文章都是关于人类空间导航脑网络的。</p><ul><li><p>Kong, X. Z., Wang, X., Pu, Y., Huang, L., Hao, X., Zhen, Z., &amp; Liu, J. (2017). <a href="https://link.springer.com/article/10.1007/s00429-016-1243-8" target="_blank" rel="noopener">Human navigation network: the intrinsic functional organization and behavioral relevance</a>. Brain Structure and Function, 222(2), 749-764.</p><p>  关键词： <code>空间导航</code> <code>导航网络</code> <code>功能连接</code> <code>个体差异</code> <code>脑连接组</code></p><p>  空间导航是一项至关重要的认知能力。已有研究发现人脑中有多个区域参与导航相关的任务，但是，我们对于这些脑区如何交互，并作为一个功能网络支持灵活的导航行为还知之甚少。本研究采用一项新的研究方法，整合了神经影像元分析和大样本脑功能连接和行为学数据。具体而言，首先，我们结合大尺度神经影像元分析和静息态功能磁共振成像，构建了每一名被试的空间导航脑网络。然后，我们系统考察了导航网络的多种拓扑属性，其中包括小世界、模块化和核心节点。最后，我们基于一组健康年轻成人样本考察了这些拓扑属性的行为学意义。我们发现，导航网络整体上呈现明显的小世界属性和模块化组织特征。更重要的是，我们发现导航网络的小世界和模块化属性的提高与更好的导航能力有关。最后，我们发现右侧压后皮层是导航网络中的核心节点，且该脑区更高的中介度与更好的导航能力显著相关。该研究对于理解导航网络的组织结构提供了新的视角。此外，研究结果表明，该研究方法在研究人脑中功能网络，及其与老化和脑疾病的行为和功能障碍的关系等方面存在潜在应用价值。</p></li><li><p>Kong, X. Z., Song, Y., Zhen, Z., &amp; Liu, J. (2017). <a href="https://academic.oup.com/cercor/article/27/2/1326/3056269" target="_blank" rel="noopener">Genetic variation in S100B modulates neural processing of visual scenes in Han Chinese</a>. Cerebral Cortex, 27(2), 1326-1336.</p><p>  关键词：<code>空间导航</code> <code>S100B</code> <code>遗传</code> <code>基因表达</code> <code>空间导航</code></p><p>  空间导航对于人和动物的生存和生活都至关重要。已有动物研究发现，S100B基因与小鼠的空间导航表现存在因果关系。但是，目前影响人类导航及其神经基础的遗传因素仍不清楚。本研究首次揭示了S100B基因参与调节人类导航相关脑活动。具体而言，首先，我们采用一项新的整合方法，发现人类大脑中S100B基因表达的空间模式与空间导航相关的大脑激活模式显著相关。此外，在一组健康年轻成人的样本中，我们发现S100B基因单核苷酸多态性调节了压后皮质和海马旁回脑区的场景选择性激活。最后，血清S100B蛋白水平中介了S100B基因与压后皮层场景选择性激活的关系。这项研究为理解人类空间导航的神经遗传机制提供了新的视角，同时，提供了一种发现认知功能相关候选基因的新方法。</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;工作原因，最近需要把两篇以前发表的文章的摘要翻译为中文，顺手贴过来一份。这两篇文章都是关于人类空间导航脑网络的。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Kong, X. Z., Wang, X., Pu, Y., Huang, L., Hao, X., Zhen, Z., &amp;am
+      
+    
+    </summary>
+    
+      <category term="BrainResearch" scheme="http://conxz.net/categories/BrainResearch/"/>
+    
+    
+      <category term="gene" scheme="http://conxz.net/tags/gene/"/>
+    
+      <category term="navigation" scheme="http://conxz.net/tags/navigation/"/>
+    
+      <category term="navigation network" scheme="http://conxz.net/tags/navigation-network/"/>
+    
+      <category term="S100B" scheme="http://conxz.net/tags/S100B/"/>
+    
+  </entry>
   
   <entry>
     <title>脑影像遗传学：语言脑功能网络的基因表达相关</title>
@@ -458,9 +491,9 @@ N, D_in, H, D_out = 64, 1000, 100, 10
     
       <category term="R" scheme="http://conxz.net/tags/R/"/>
     
-      <category term="data science" scheme="http://conxz.net/tags/data-science/"/>
-    
       <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
+    
+      <category term="data science" scheme="http://conxz.net/tags/data-science/"/>
     
       <category term="shiny app" scheme="http://conxz.net/tags/shiny-app/"/>
     
@@ -576,33 +609,6 @@ N, D_in, H, D_out = 64, 1000, 100, 10
       <category term="paper" scheme="http://conxz.net/tags/paper/"/>
     
       <category term="publication" scheme="http://conxz.net/tags/publication/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Retreat是什么会议？</title>
-    <link href="http://conxz.net/2018/03/08/whatisretreat/"/>
-    <id>http://conxz.net/2018/03/08/whatisretreat/</id>
-    <published>2018-03-08T22:32:48.000Z</published>
-    <updated>2018-03-08T23:01:03.826Z</updated>
-    
-    <content type="html"><![CDATA[<p>计划5月中旬去New York参加Society of Biological Psychiatry（SOBP）的Annual Meeting。以往主要关注像OHBM这种脑影像相关的国际会议，这是第一次参加这个生物精神病学的会议。今年SOBP Annual Meeting的主题是“Biomarkers, Biomodels, and Psychiatric Disorders”。在此期间，ENIGMA在New York计划组织了一次小型会议，命名为ENIGMA Annual Retreat，因此，最近也在收集参会人的信息。这里涉及到一个生词<strong>Retreat</strong>（我词汇量也有限），于是心生疑问，这个Retreat和Meeting/Conference有什么区别？</p><p>于是乎搜了一些信息，这里有个<a href="http://blog.sina.com.cn/s/blog_4bc09c100100mmna.html" target="_blank" rel="noopener">博客</a>很系统收集了几种常用的会议相关的词的用法，包括Meeting、Conference、Symposium、Congress、Convention、Forum、Lecture、Seminar、Workshop、Colloquium、Panel Discussion和Assembly等。这里涉及到上面提到的SOBP和OHBM用的Annual Meeting，即“年会”。另一个词是Colloquium（座谈会或专题报告），我认识这个词源自现在单位的不定期活动<a href="http://www.mpi.nl/events/copy_of_mpi-colloquium-series" target="_blank" rel="noopener">MPI Colloquium</a>，是Seminar（研讨会或者学术讨论）的一种正式的说法。Panel Discussion是围绕具体问题的现场“小组讨论”或“座谈”。</p><p>根据搜到的一些资料看(比如<a href="https://ministryservingministry.com/2013/12/12/retreat-or-conference-that-is-the-question/" target="_blank" rel="noopener">这篇</a>)，Retreat和Conference是不同的，不过有时候还是会出现混用。可能主要的区别在于，Retreat源于宗教场合，意为闭关，静修，用在会议上包含了这个词本身包含的休息、放松的意思，一般指非正式会议；而Conference则仅是围绕特定主题的会议，期间并没有过多可以休息的时间。同时Retreat似乎是小范围的类似会员聚会。如此看，Retreat更适用那种特定组织，以学术交流为主题，同时兼顾放松、休闲的集会活动。如此想来，倒也确实适合借助其他Annual Meeting之便，将参会的部分成员召集在一起，兼顾学术和放松的Annual Retreat活动。</p><p>中文有“务虚会议”这个词，感觉不太直观；也有新闻报道中直接用Retreat会议或非正式会议；结合这种会议的范围，可能翻译成“<strong>闭门会议</strong>”可能更合适。</p><p><img src="/images/post_images/retreat.jpg" alt="Retreat"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;计划5月中旬去New York参加Society of Biological Psychiatry（SOBP）的Annual Meeting。以往主要关注像OHBM这种脑影像相关的国际会议，这是第一次参加这个生物精神病学的会议。今年SOBP Annual Meeting的主
-      
-    
-    </summary>
-    
-      <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
-    
-    
-      <category term="conference" scheme="http://conxz.net/tags/conference/"/>
-    
-      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
   </entry>
   
