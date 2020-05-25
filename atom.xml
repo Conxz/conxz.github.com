@@ -410,9 +410,9 @@ N, D_in, H, D_out = 64, 1000, 100, 10
       <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
     
     
-      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
-    
       <category term="blog" scheme="http://conxz.net/tags/blog/"/>
+    
+      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
   </entry>
   
@@ -435,9 +435,9 @@ N, D_in, H, D_out = 64, 1000, 100, 10
       <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
     
     
-      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
-    
       <category term="blog" scheme="http://conxz.net/tags/blog/"/>
+    
+      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
       <category term="google adsense" scheme="http://conxz.net/tags/google-adsense/"/>
     
