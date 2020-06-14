@@ -38,13 +38,13 @@
     
       <category term="brain asymmetry" scheme="http://conxz.net/tags/brain-asymmetry/"/>
     
+      <category term="paper" scheme="http://conxz.net/tags/paper/"/>
+    
       <category term="health" scheme="http://conxz.net/tags/health/"/>
     
       <category term="disease" scheme="http://conxz.net/tags/disease/"/>
     
       <category term="research" scheme="http://conxz.net/tags/research/"/>
-    
-      <category term="paper" scheme="http://conxz.net/tags/paper/"/>
     
   </entry>
   
@@ -96,9 +96,9 @@
       <category term="Xs" scheme="http://conxz.net/categories/Xs/"/>
     
     
-      <category term="cognitive neuroscience" scheme="http://conxz.net/tags/cognitive-neuroscience/"/>
-    
       <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
+    
+      <category term="cognitive neuroscience" scheme="http://conxz.net/tags/cognitive-neuroscience/"/>
     
       <category term="virtual conference" scheme="http://conxz.net/tags/virtual-conference/"/>
     
@@ -527,9 +527,9 @@ N, D_in, H, D_out = 64, 1000, 100, 10
     
       <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
-      <category term="paper" scheme="http://conxz.net/tags/paper/"/>
-    
       <category term="collaborative team research" scheme="http://conxz.net/tags/collaborative-team-research/"/>
+    
+      <category term="paper" scheme="http://conxz.net/tags/paper/"/>
     
   </entry>
   
