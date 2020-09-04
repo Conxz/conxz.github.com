@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://conxz.net/"/>
-  <updated>2020-08-06T18:17:06.968Z</updated>
+  <updated>2020-09-04T15:14:54.910Z</updated>
   <id>http://conxz.net/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>可重复性问题再议：p-hacking、效应量、样本量</title>
+    <link href="http://conxz.net/2020/09/04/reproducibility/"/>
+    <id>http://conxz.net/2020/09/04/reproducibility/</id>
+    <published>2020-09-04T14:57:12.000Z</published>
+    <updated>2020-09-04T15:14:54.910Z</updated>
+    
+    <content type="html"><![CDATA[<p>Kong, X., Francks, C., &amp; ENIGMA Laterality Working Group. (2020). Reproducibility in the absence of selective reporting: An illustration from large‐scale brain asymmetry research. Human Brain Mapping. <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.25154" target="_blank" rel="noopener">Advance online publication</a>.</p><p>关键词：<code>多中心合作</code> <code>p-hacking</code> <code>出版偏见</code> <code>可重复性问题</code> <code>团队科学</code></p><p>近年来，研究结果的可重复性问题在多个领域引起了大量的关注，其中便包括医学、心理学和神经科学。这一问题在一定程度上被归咎于长期存在的出版偏见和像p-hacking这种的有问题的研究习惯。研究者也开始大声疾呼要做可重复的研究，包括提高数据采集的透明度、倡导共享数据、开发和采用标准化的数据分析流程等。研究的统计力也被认为是一个重要的因素，但是，在最近<a href="https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970" target="_blank" rel="noopener">发表在Nature杂志上的一项调查</a>显示，统计力在导致研究结果不可重复的因素中仅排在第三，位于“选择性报告”和“发表压力”之后。<a id="more"></a></p><p><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.25154" target="_blank" rel="noopener">本研究</a>旨在考察在理想发表环境下研究结果的可重复性。这里“理想出版环境”，即可以完全避免潜在的选择性报告问题和p-hacking等问题。在<a href="https://www.pnas.org/content/115/22/E5154" target="_blank" rel="noopener">最近的一项研究</a>中，我们收集了来自世界各地99个数据集的超过1万7千名被试的脑结构影像数据，并基于此刻画了局部脑区皮层厚度和面积的左右半球偏侧化。本研究从可重复性的视角重新回顾了这一数据。具体而言，针对每个数据集，如果得到的效应和元分析得到的结果方向和显著性一致，我们便认为在该数据集中可以得到可被重复的结果。因此，我们把每个数据集得到的结果看做是在一个理想出版环境下发表的研究。我们发现，基于现在通行的数据采集手段和样本量，即便在完全可以避免选择性报告和p-hacking时，单个研究得到的结果的可重复率仅有63.2%（最低22.2%，最高97.0%）。有意思的是，这个可重复率的范围涵盖了近年来发表的心理学研究的可重复情况。比如，在2015年<a href="https://science.sciencemag.org/content/349/6251/aac4716" target="_blank" rel="noopener">发表在Science杂志上的一项研究</a>重复了100项心理学研究，发现仅36%得到重复；<a href="https://journals.sagepub.com/doi/full/10.1177/2515245918810225" target="_blank" rel="noopener">2018年Many Lab项目重复了28项经典的心理学研究</a>，得到了54%的重复率。而由此引发的大量讨论都将矛头指向出版偏见和选择性报告和p-hacking等潜在的有问题行为。我们这里的数据并非争论这些因素在可重复性问题中的可能贡献，但是有趣的是，我们发现即便在完全可以避免这些因素时，研究的可重复性也仅有63.2%，最低只有22.2%。值得注意的是，这里关注的效应量在0和1.8之间，基本涵盖了心理学研究感兴趣的效应量，不过这些效应量的分布可能不能完全代表所有文献。此外，和预期一致，我们发现数据集越大和效应量越大时，结果的可重复性越高。因此，为了避免不可重复问题，在未来的研究中更大的样本量是必需的。<br><img src="/images/post_images/reproducibility.jpg" alt><br>研究结果的可重复性是积累科学知识的关键。本研究在保持当前研究习惯（数据样本量、异质性和感兴趣的效应量）的前提下，呈现了一个理想出版环境中的可重复性问题。结果显示基于当前的研究习惯，仍然存在很大的空间来提高研究结果的可重复性，同时，数据集的样本量和感兴趣的效应量仍然是可重复性问题的重要因素。研究者可以通过增加单个数据集的样本量或与其他研究者合作来提高统计力，从而得到更好的可重复性。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Kong, X., Francks, C., &amp;amp; ENIGMA Laterality Working Group. (2020). Reproducibility in the absence of selective reporting: An illustration from large‐scale brain asymmetry research. Human Brain Mapping. &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.25154&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Advance online publication&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;关键词：&lt;code&gt;多中心合作&lt;/code&gt; &lt;code&gt;p-hacking&lt;/code&gt; &lt;code&gt;出版偏见&lt;/code&gt; &lt;code&gt;可重复性问题&lt;/code&gt; &lt;code&gt;团队科学&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;近年来，研究结果的可重复性问题在多个领域引起了大量的关注，其中便包括医学、心理学和神经科学。这一问题在一定程度上被归咎于长期存在的出版偏见和像p-hacking这种的有问题的研究习惯。研究者也开始大声疾呼要做可重复的研究，包括提高数据采集的透明度、倡导共享数据、开发和采用标准化的数据分析流程等。研究的统计力也被认为是一个重要的因素，但是，在最近&lt;a href=&quot;https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;发表在Nature杂志上的一项调查&lt;/a&gt;显示，统计力在导致研究结果不可重复的因素中仅排在第三，位于“选择性报告”和“发表压力”之后。
+    
+    </summary>
+    
+      <category term="BrainResearch" scheme="http://conxz.net/categories/BrainResearch/"/>
+    
+    
+      <category term="brain asymmetry" scheme="http://conxz.net/tags/brain-asymmetry/"/>
+    
+      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
+    
+      <category term="collaborative team research" scheme="http://conxz.net/tags/collaborative-team-research/"/>
+    
+      <category term="paper" scheme="http://conxz.net/tags/paper/"/>
+    
+      <category term="reproducibility" scheme="http://conxz.net/tags/reproducibility/"/>
+    
+  </entry>
   
   <entry>
     <title>德国开车踩了环保贴纸（Umweltplakette）的坑</title>
@@ -589,34 +621,6 @@ N, D_in, H, D_out = 64, 1000, 100, 10
       <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
     
       <category term="publication" scheme="http://conxz.net/tags/publication/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记第一个Shiny应用obsBrain</title>
-    <link href="http://conxz.net/2018/12/27/obsBrainApp/"/>
-    <id>http://conxz.net/2018/12/27/obsBrainApp/</id>
-    <published>2018-12-27T20:05:11.000Z</published>
-    <updated>2018-12-27T20:48:35.712Z</updated>
-    
-    <content type="html"><![CDATA[<p>Shiny是一项RStudio开发支持的交互式网页技术，基于此技术，可以用R语言相对轻松地实现交互式网页应用。由于其轻便、易学和交互式特点，该技术尤其适用于在学术发表的同时，交互式呈现数据科学分析结果，以方便读者更好地查看和理解研究方法和研究结果。<br>在以往自己的数据计算中，Python占了主导。不过从2016年下半年到现在的实验室之后，更多的时候采用R完成数据计算，深知其便捷性。期间对Shiny也有一些接触，不过属“点头之交”：大致晓得其基本功能，但没来得及深入学习。于是，趁着圣诞和新年假期，具体学了一下Shiny应用的实现，并结合目前的研究兴趣得到的第一个应用。<br><img src="/images/post_images/obsbrain.png" alt="obsBrain"><br><a id="more"></a><br>在这个应用中主要实现了一下几个功能：</p><ul><li>可视化人脑基因表达的空间分布</li><li>汇集和展示ENIGMA多中心合作项目在多个研究中的主要结果（并呈现其与基因表达的空间相关分析结果）</li><li>提供一个方便使用的可视化工具</li></ul><p>所有这些功能均基于FreeSurfer提供的Desikan–Killiany图谱（半脑分为34个脑区），这也是目前ENIGMA多中心合作项目使用最多的脑分割图谱。暂且将其命名为obsBrain，全称为Observatory of Brain。<br>该应用目前已发布到网络，可以通过如下链接访问:<br><a href="https://conxz.shinyapps.io/obsbrain/" target="_blank" rel="noopener">https://conxz.shinyapps.io/obsbrain/</a><br>此外，所有数据准备和具体应用实现相关代码和数据均已发布在GitHub，可以通过如下链接访问:<br><a href="https://github.com/Conxz/obsBrain" target="_blank" rel="noopener">https://github.com/Conxz/obsBrain</a></p><p>关于该应用的更多细节，可以参见README.md文件。同时欢迎感兴趣的同行联系交流（联系方式见README.md）。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Shiny是一项RStudio开发支持的交互式网页技术，基于此技术，可以用R语言相对轻松地实现交互式网页应用。由于其轻便、易学和交互式特点，该技术尤其适用于在学术发表的同时，交互式呈现数据科学分析结果，以方便读者更好地查看和理解研究方法和研究结果。&lt;br&gt;在以往自己的数据计算中，Python占了主导。不过从2016年下半年到现在的实验室之后，更多的时候采用R完成数据计算，深知其便捷性。期间对Shiny也有一些接触，不过属“点头之交”：大致晓得其基本功能，但没来得及深入学习。于是，趁着圣诞和新年假期，具体学了一下Shiny应用的实现，并结合目前的研究兴趣得到的第一个应用。&lt;br&gt;&lt;img src=&quot;/images/post_images/obsbrain.png&quot; alt=&quot;obsBrain&quot;&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="OpenScience" scheme="http://conxz.net/categories/OpenScience/"/>
-    
-    
-      <category term="R" scheme="http://conxz.net/tags/R/"/>
-    
-      <category term="open science" scheme="http://conxz.net/tags/open-science/"/>
-    
-      <category term="data science" scheme="http://conxz.net/tags/data-science/"/>
-    
-      <category term="shiny app" scheme="http://conxz.net/tags/shiny-app/"/>
     
   </entry>
   
